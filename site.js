@@ -5,11 +5,24 @@
 
   async function renderNews() {
     const host=document.getElementById('news-content'); if(!host) return;
-    const data=await load('data/news.json');
-    host.innerHTML=`<div class="news-stack">${data.map(n=>`
-      <article class="news-card${n.type==='conference'?' featured-news':''}">
+    const data=(await load('data/news.json')).sort((a,b)=>String(b.date||'').localeCompare(String(a.date||'')));
+    const latest=data.slice(0,3);
+    host.innerHTML=`<div class="news-list">${latest.map(n=>`
+      <article class="news-summary-card">
         <div class="label">${esc(n.label)}</div>
-        <h3 class="news-title">${esc(n.title)}</h3>
+        <h3><a href="news.html#${esc(n.slug)}">${esc(n.title)}</a></h3>
+        <p class="muted">${esc(n.summary||'')}</p>
+        <a class="news-read-more" href="news.html#${esc(n.slug)}">Read more →</a>
+      </article>`).join('')}</div>${data.length>3?'<div class="news-all-link"><a href="news.html">View all news →</a></div>':''}`;
+  }
+
+  async function renderNewsPage() {
+    const host=document.getElementById('all-news-content'); if(!host) return;
+    const data=(await load('data/news.json')).sort((a,b)=>String(b.date||'').localeCompare(String(a.date||'')));
+    host.innerHTML=`<div class="news-stack">${data.map(n=>`
+      <article class="news-card${n.type==='conference'?' featured-news':''}" id="${esc(n.slug||'')}">
+        <div class="label">${esc(n.label)}</div>
+        <h2 class="news-full-title">${esc(n.title)}</h2>
         ${n.heroImage?`<img class="news-hero" src="${esc(n.heroImage)}" alt="${esc(n.heroAlt||n.title)}">`:''}
         <div class="news-copy">
           ${(n.paragraphs||[]).map(p=>`<p class="muted">${esc(p)}</p>`).join('')}
@@ -63,5 +76,5 @@
     memberFilter.addEventListener('change',applyFilters); searchInput.addEventListener('input',applyFilters); applyFilters();
   }
 
-  Promise.allSettled([renderNews(),renderMembers(),renderCollaboration(),renderVideos(),renderSelectedPublications(),renderPublications()]).then(results=>results.forEach(r=>{if(r.status==='rejected') console.error(r.reason)}));
+  Promise.allSettled([renderNews(),renderMembers(),renderCollaboration(),renderVideos(),renderSelectedPublications(),renderPublications(),renderNewsPage()]).then(results=>results.forEach(r=>{if(r.status==='rejected') console.error(r.reason)}));
 })();
