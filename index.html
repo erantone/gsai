@@ -257,6 +257,15 @@
 .video-thumb{
   position:relative;display:block;aspect-ratio:16/9;overflow:hidden;background:#000;
 }
+.video-thumb-button{
+  width:100%;
+  padding:0;
+  border:0;
+  cursor:pointer;
+  color:inherit;
+  font:inherit;
+  text-align:inherit;
+}
 .video-thumb img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .2s ease,opacity .2s ease}
 .video-thumb:hover img{transform:scale(1.02);opacity:.88}
 .video-play{
@@ -266,6 +275,10 @@
   font-size:27px;color:#fff;line-height:1;padding-left:4px;
 }
 .video-thumb:hover .video-play{background:rgba(0,0,0,.88)}
+.video-thumb:focus-visible{
+  outline:3px solid var(--accent);
+  outline-offset:3px;
+}
 
     .collaborator-box {
       border: 1px solid var(--border);
@@ -626,7 +639,7 @@
 </section>
 <section id="alumni">
 <div class="section-head">
-<h2>Previous alumni</h2>
+<h2>Alumni</h2>
 </div>
 <div class="section-card">
 <ul class="alumni-list">
@@ -686,5 +699,5 @@
       <a class="back-to-top" href="#top">Back to top ↑</a>
     </div>
 </main>
-<script src="site.js?v=20261023-5"></script></body>
+<script src="site.js?v=20261023-6"></script></body>
 </html>
