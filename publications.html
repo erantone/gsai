@@ -311,9 +311,22 @@
         padding-bottom: 0;
       }
     }
+
+    .footer-row {
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:16px;
+      flex-wrap:wrap;
+    }
+    .back-to-top {
+      font-weight:700;
+      white-space:nowrap;
+    }
+
 </style>
 </head>
-<body><div id="site-nav"></div><script src="shared-nav.js?v=20261023-2"></script>
+<body id="top"><div id="site-nav"></div><script src="shared-nav.js?v=20261023-2"></script>
 
 <header class="pub-page-hero">
 <div class="wrap">
@@ -325,14 +338,7 @@
 <a class="btn secondary" href="http://lattes.cnpq.br/9164096321999079" rel="noopener noreferrer" target="_blank">Lattes</a>
 <a class="btn secondary" href="https://orcid.org/0000-0002-7285-0974" rel="noopener noreferrer" target="_blank">ORCID</a>
 <a class="btn secondary" href="index.html#publications">Back to GSAI</a>
-</div>
-<p class="source-note">
-      The publication list was reconciled with the Lattes CV and current public research profiles.
-      <strong>PDF</strong> is shown only for a public full-text URL that was verified.
-      <strong>arXiv</strong> opens the corresponding record, and <strong>Official</strong> points to the DOI or publisher.
-      Repository links are used when a stable public record exposes a full-text copy.
-    </p>
-</div>
+</div></div>
 </header>
 <main class="wrap">
 <p class="pub-intro">Full publication list with authors, bibliographic details, and links to local PDFs, arXiv versions, or publisher pages when available.</p><div class="pub-filter-bar"><label class="pub-filter-field"><span>Filter by group member</span><select aria-label="Filter publications by group member" id="memberFilter"><option value="all">All members</option><option value="eric-antonelo">Eric Antonelo (54)</option><option value="gustavo-couto">Gustavo Couto (6)</option><option value="felipe-santos">Felipe Santos (1)</option><option value="rafael-bertolini">Rafael Bertolini (0)</option><option value="gabriel-zipperer">Gabriel Zipperer (1)</option><option value="carolina-salvador">Carolina Salvador (0)</option><option value="yessica-lemos">Yessica Valencia Lemos (0)</option><option value="eduardo-zummach">Eduardo Vargas Zummach (0)</option><option value="amauri-cunha">Amauri Cunha (0)</option><option value="leonardo-pezenatto">Leonardo Pezenatto da Silva (0)</option><option value="miguel-castilho">Miguel Castilho Silva (0)</option><option value="bruno-machado">Bruno Maciel Machado (1)</option><option value="irving-petrazzini">Irving Petrazzini (1)</option><option value="rafael-toledo">Rafael Toledo (2)</option></select></label><label class="pub-filter-field pub-search-field"><span>Search publications</span><input autocomplete="off" id="publicationSearch" placeholder="Author, title, year, journal..." type="search"/></label><div class="pub-filter-count" id="publicationCount">54 publications</div></div><div id="publications-content"></div><section id="contact">
@@ -344,7 +350,7 @@
       </p>
 </div>
 </section>
-<div class="footer">GSAI research group.</div>
+<div class="footer footer-row"><span>GSAI research group.</span><a class="back-to-top" href="#top">Back to top ↑</a></div>
 </main>
 <script src="site.js?v=20261023-2"></script></body>
 </html>
