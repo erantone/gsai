@@ -59,7 +59,26 @@
   async function renderVideos() {
     const host=document.getElementById('videos-content'); if(!host) return;
     const data=await load('data/videos.json');
-    host.innerHTML=`<div class="section-card"><div class="video-grid">${data.map(v=>`<article class="section-card video-card"><iframe class="video-embed" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen src="${esc(v.embedUrl)}" title="${esc(v.title)}"></iframe><div class="video-content"><div class="video-meta">${esc(v.meta)}</div><h3>${esc(v.title)}</h3><p>${esc(v.description)}</p><div class="video-links">${v.links.map(l=>`<a href="${esc(l.url)}" target="_blank" rel="noopener noreferrer">${esc(l.label)}</a>`).join('')}</div></div></article>`).join('')}</div></div>`;
+    const videoId=(url)=>String(url||'').match(/\/embed\/([^?&/]+)/)?.[1]||'';
+    host.innerHTML=`<div class="section-card"><div class="video-grid">${data.map(v=>{
+      const id=videoId(v.embedUrl);
+      const thumb=id?`https://i.ytimg.com/vi/${esc(id)}/hqdefault.jpg`:'';
+      return `<article class="section-card video-card"><button class="video-thumb video-thumb-button" type="button" data-embed="${esc(v.embedUrl)}" data-title="${esc(v.title)}" aria-label="Play ${esc(v.title)}"><img loading="lazy" src="${thumb}" alt=""><span class="video-play" aria-hidden="true">▶</span></button><div class="video-content"><div class="video-meta">${esc(v.meta)}</div><h3>${esc(v.title)}</h3><p>${esc(v.description)}</p><div class="video-links">${v.links.map(l=>`<a href="${esc(l.url)}" target="_blank" rel="noopener noreferrer">${esc(l.label)}</a>`).join('')}</div></div></article>`;
+    }).join('')}</div></div>`;
+
+    host.querySelectorAll('.video-thumb-button').forEach(button=>{
+      button.addEventListener('click',()=>{
+        const iframe=document.createElement('iframe');
+        iframe.className='video-embed';
+        iframe.referrerPolicy='strict-origin-when-cross-origin';
+        iframe.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+        iframe.allowFullscreen=true;
+        iframe.title=button.dataset.title||'Research video';
+        const src=button.dataset.embed||'';
+        iframe.src=src+(src.includes('?')?'&':'?')+'autoplay=1';
+        button.replaceWith(iframe);
+      },{once:true});
+    });
   }
 
   async function renderSelectedPublications() {
