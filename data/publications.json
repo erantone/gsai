@@ -1,0 +1,1168 @@
+[
+  {
+    "year": 2026,
+    "title": "Physics-Informed Neural Networks for two-phase flow modeling in pipelines with state-dependent properties: Parameter estimation and experiment design",
+    "authorsHtml": "Luis Kin Miyatake, Eduardo Camponogara, Alexey Pavlov, and <strong>Eric Aislan Antonelo</strong>",
+    "authorsText": "Luis Kin Miyatake, Eduardo Camponogara, Alexey Pavlov, and Eric Aislan Antonelo",
+    "venue": "Computers & Chemical Engineering, vol. 213, article 109764, 2026.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": [
+      {
+        "label": "Official",
+        "url": "https://doi.org/10.1016/j.compchemeng.2026.109764",
+        "localPdf": false
+      }
+    ]
+  },
+  {
+    "year": 2026,
+    "title": "A Study of Conditional Diffusion Models for Open-Loop Control under Dry Friction and Stiction",
+    "authorsHtml": "<strong>Eric Aislan Antonelo</strong>",
+    "authorsText": "Eric Aislan Antonelo",
+    "venue": "arXiv:2609.01756, 2026.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2609.01756",
+        "localPdf": false
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2609.01756",
+        "localPdf": false
+      }
+    ]
+  },
+  {
+    "year": 2026,
+    "title": "A Low-Cost, Open Platform for End-to-End Autonomous Driving on a Miniature Ackermann Vehicle",
+    "authorsHtml": "Gustavo Claudio Karl Couto, <strong>Eric Aislan Antonelo</strong>, and Gabriel George Zipperer",
+    "authorsText": "Gustavo Claudio Karl Couto, Eric Aislan Antonelo, and Gabriel George Zipperer",
+    "venue": "ENIAC 2026; arXiv:2609.04147, 2026.",
+    "members": [
+      "eric-antonelo",
+      "gustavo-couto",
+      "gabriel-zipperer"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2609.04147",
+        "localPdf": false
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2609.04147",
+        "localPdf": false
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "title": "Physics-informed Echo State Networks for modeling controllable dynamical systems",
+    "authorsHtml": "E. Mochiutti, <strong>Eric Aislan Antonelo</strong>, and E. Camponogara",
+    "authorsText": "E. Mochiutti, Eric Aislan Antonelo, and E. Camponogara",
+    "venue": "Neurocomputing, vol. 639, article 130251, 2025.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2409.19140",
+        "localPdf": false
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2409.19140",
+        "localPdf": false
+      },
+      {
+        "label": "Official",
+        "url": "https://doi.org/10.1016/j.neucom.2025.130251",
+        "localPdf": false
+      }
+    ],
+    "selected": true,
+    "selectedTag": "PINC",
+    "selectedSummary": "Neurocomputing · 2025",
+    "selectedOrder": 2
+  },
+  {
+    "year": 2025,
+    "title": "Physics-Informed Neural Networks for Control of single-phase flow systems governed by partial differential equations",
+    "authorsHtml": "L. K. Miyatake, E. Camponogara, <strong>Eric Aislan Antonelo</strong>, and A. Pavlov",
+    "authorsText": "L. K. Miyatake, E. Camponogara, Eric Aislan Antonelo, and A. Pavlov",
+    "venue": "Engineering Applications of Artificial Intelligence, vol. 160, article 111869, 2025.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2506.06188",
+        "localPdf": false
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2506.06188",
+        "localPdf": false
+      },
+      {
+        "label": "Official",
+        "url": "https://doi.org/10.1016/j.engappai.2025.111869",
+        "localPdf": false
+      }
+    ],
+    "selected": true,
+    "selectedTag": "PINC",
+    "selectedSummary": "Engineering Applications of Artificial Intelligence · 2025",
+    "selectedOrder": 1
+  },
+  {
+    "year": 2025,
+    "title": "Hierarchical Generative Adversarial Imitation Learning With Mid-Level Input Generation for Autonomous Driving on Urban Environments",
+    "authorsHtml": "Gustavo Claudio Karl Couto and <strong>Eric Aislan Antonelo</strong>",
+    "authorsText": "Gustavo Claudio Karl Couto and Eric Aislan Antonelo",
+    "venue": "IEEE Transactions on Intelligent Vehicles, vol. 10, no. 3, pp. 1841–1854, 2025.",
+    "members": [
+      "eric-antonelo",
+      "gustavo-couto"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "pdfs/hgail_ieee_tiv2024.pdf",
+        "localPdf": true
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2302.04823",
+        "localPdf": false
+      },
+      {
+        "label": "Official",
+        "url": "https://doi.org/10.1109/TIV.2024.3436587",
+        "localPdf": false
+      }
+    ],
+    "selected": true,
+    "selectedTag": "Autonomous Driving",
+    "selectedSummary": "IEEE Transactions on Intelligent Vehicles · 2024",
+    "selectedOrder": 3
+  },
+  {
+    "year": 2025,
+    "title": "Investigating Diffusion Models for Offline Behavior Cloning in Autonomous Driving Scenarios",
+    "authorsHtml": "Bruno M. Machado and <strong>Eric Aislan Antonelo</strong>",
+    "authorsText": "Bruno M. Machado and Eric Aislan Antonelo",
+    "venue": "2025 Brazilian Conference on Robotics (CROS), Belo Horizonte, 2025.",
+    "members": [
+      "eric-antonelo",
+      "bruno-machado"
+    ],
+    "links": [],
+    "selected": true,
+    "selectedTag": "Autonomous Driving",
+    "selectedSummary": "CROS · 2025",
+    "selectedOrder": 6
+  },
+  {
+    "year": 2025,
+    "title": "Exploring multimodal implicit behavior learning for vehicle navigation in simulated cities",
+    "authorsHtml": "<strong>Eric Aislan Antonelo</strong>, Gustavo Claudio Karl Couto, and Christian Möller",
+    "authorsText": "Eric Aislan Antonelo, Gustavo Claudio Karl Couto, and Christian Möller",
+    "venue": "XXII Encontro Nacional de Inteligência Artificial e Computacional (ENIAC 2025), p. 962, 2025.",
+    "members": [
+      "eric-antonelo",
+      "gustavo-couto"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2509.15400",
+        "localPdf": false
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2509.15400",
+        "localPdf": false
+      }
+    ],
+    "selected": true,
+    "selectedTag": "Autonomous Driving",
+    "selectedSummary": "ENIAC · 2025",
+    "selectedOrder": 5
+  },
+  {
+    "year": 2025,
+    "title": "An Initial Study of Bird's-Eye View Generation for Autonomous Vehicles using Cross-View Transformers",
+    "authorsHtml": "Felipe Carlos dos Santos, <strong>Eric Aislan Antonelo</strong>, and Gustavo Claudio Karl Couto",
+    "authorsText": "Felipe Carlos dos Santos, Eric Aislan Antonelo, and Gustavo Claudio Karl Couto",
+    "venue": "XXII Encontro Nacional de Inteligência Artificial e Computacional (ENIAC 2025), p. 855, 2025.",
+    "members": [
+      "eric-antonelo",
+      "gustavo-couto",
+      "felipe-santos"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2508.12520",
+        "localPdf": false
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2508.12520",
+        "localPdf": false
+      }
+    ],
+    "selected": true,
+    "selectedTag": "Perception",
+    "selectedSummary": "ENIAC · 2025",
+    "selectedOrder": 7
+  },
+  {
+    "year": 2024,
+    "title": "Physics-informed neural nets for control of dynamical systems",
+    "authorsHtml": "<strong>Eric Aislan Antonelo</strong>, Eduardo Camponogara, Laio Oriel Seman, Jean Panaioti Jordanou, Eduardo Rehbein de Souza, and Jomi Fred Hübner",
+    "authorsText": "Eric Aislan Antonelo, Eduardo Camponogara, Laio Oriel Seman, Jean Panaioti Jordanou, Eduardo Rehbein de Souza, and Jomi Fred Hübner",
+    "venue": "Neurocomputing, vol. 579, article 127419, 2024.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "pdfs/PINC_Neurocomputing_2024.pdf",
+        "localPdf": true
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2104.02556",
+        "localPdf": false
+      },
+      {
+        "label": "Official",
+        "url": "https://doi.org/10.1016/j.neucom.2024.127419",
+        "localPdf": false
+      }
+    ],
+    "selected": true,
+    "selectedTag": "PINC",
+    "selectedSummary": "Neurocomputing · 2024",
+    "selectedOrder": 0
+  },
+  {
+    "year": 2024,
+    "title": "Physics-Informed Neural Networks with skip connections for modeling and control of gas-lifted oil wells",
+    "authorsHtml": "Jonas Ekeland Kittelsen, <strong>Eric Aislan Antonelo</strong>, Eduardo Camponogara, and Lars Struen Imsland",
+    "authorsText": "Jonas Ekeland Kittelsen, Eric Aislan Antonelo, Eduardo Camponogara, and Lars Struen Imsland",
+    "venue": "Applied Soft Computing, vol. 158, article 111603, 2024.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "pdfs/PINC_gas_lifted_wells_Applied_Soft_Computing.pdf",
+        "localPdf": true
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2403.02289",
+        "localPdf": false
+      },
+      {
+        "label": "Official",
+        "url": "https://doi.org/10.1016/j.asoc.2024.111603",
+        "localPdf": false
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "title": "Investigating Behavior Cloning from Few Demonstrations for Autonomous Driving Based on Bird’s-Eye View in Simulated Cities",
+    "authorsHtml": "<strong>Eric Aislan Antonelo</strong>, Gustavo Claudio Karl Couto, Christian Möller, and Pedro Henrique M. J. Fernandes",
+    "authorsText": "Eric Aislan Antonelo, Gustavo Claudio Karl Couto, Christian Möller, and Pedro Henrique M. J. Fernandes",
+    "venue": "Brazilian Conference on Intelligent Systems (BRACIS 2024); Lecture Notes in Computer Science, vol. 15413, pp. 155–168, 2025.",
+    "members": [
+      "eric-antonelo",
+      "gustavo-couto"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2610.20203",
+        "localPdf": false
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2610.20203",
+        "localPdf": false
+      }
+    ],
+    "selected": true,
+    "selectedTag": "Autonomous Driving",
+    "selectedSummary": "Lecture Notes in Computer Science · 2025",
+    "selectedOrder": 4
+  },
+  {
+    "year": 2024,
+    "title": "A Performance Increment Strategy for Semantic Segmentation of Low-Resolution Images from Damaged Roads",
+    "authorsHtml": "Rafael S. Toledo, Cristiano S. Oliveira, Vitor H. T. Oliveira, <strong>Eric Aislan Antonelo</strong>, and Aldo von Wangenheim",
+    "authorsText": "Rafael S. Toledo, Cristiano S. Oliveira, Vitor H. T. Oliveira, Eric Aislan Antonelo, and Aldo von Wangenheim",
+    "venue": "Brazilian Conference on Intelligent Systems (BRACIS 2024); Lecture Notes in Computer Science, vol. 15412, pp. 80–95, 2025.",
+    "members": [
+      "eric-antonelo",
+      "rafael-toledo"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2411.16295",
+        "localPdf": false
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2411.16295",
+        "localPdf": false
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "title": "Benford's law: What does it say on adversarial images?",
+    "authorsHtml": "João G. Zago, <strong>Eric A. Antonelo</strong>, Fabio L. Baldissera, and Rodrigo T. Saad",
+    "authorsText": "João G. Zago, Eric A. Antonelo, Fabio L. Baldissera, and Rodrigo T. Saad",
+    "venue": "Journal of Visual Communication and Image Representation, vol. 93, article 103818, 2023.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2102.04615",
+        "localPdf": false
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2102.04615",
+        "localPdf": false
+      },
+      {
+        "label": "Official",
+        "url": "https://doi.org/10.1016/j.jvcir.2023.103818",
+        "localPdf": false
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "title": "Investigation of Proper Orthogonal Decomposition for Echo State Networks",
+    "authorsHtml": "Jean Panaioti Jordanou, <strong>Eric Aislan Antonelo</strong>, Eduardo Camponogara, and Eduardo Gildin",
+    "authorsText": "Jean Panaioti Jordanou, Eric Aislan Antonelo, Eduardo Camponogara, and Eduardo Gildin",
+    "venue": "Neurocomputing, vol. 548, article 126395, 2023.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "pdfs/jordanou2023_esn_mor_neurocomputing.pdf",
+        "localPdf": true
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2211.17179",
+        "localPdf": false
+      },
+      {
+        "label": "Official",
+        "url": "https://doi.org/10.1016/j.neucom.2023.126395",
+        "localPdf": false
+      }
+    ]
+  },
+  {
+    "year": 2023,
+    "title": "Vertex-based reachability analysis for verifying ReLU deep neural networks",
+    "authorsHtml": "João G. Zago, Eduardo Camponogara, and <strong>Eric A. Antonelo</strong>",
+    "authorsText": "João G. Zago, Eduardo Camponogara, and Eric A. Antonelo",
+    "venue": "CoRR, arXiv:2301.12001, 2023.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2301.12001",
+        "localPdf": false
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2301.12001",
+        "localPdf": false
+      }
+    ]
+  },
+  {
+    "year": 2022,
+    "title": "Nonlinear Model Predictive Control of Electrical Submersible Pumps based on Echo State Networks",
+    "authorsHtml": "Jean P. Jordanou, I. Osnes, S. B. Hernes, Eduardo Camponogara, <strong>Eric A. Antonelo</strong>, and L. Imsland",
+    "authorsText": "Jean P. Jordanou, I. Osnes, S. B. Hernes, Eduardo Camponogara, Eric A. Antonelo, and L. Imsland",
+    "venue": "Advanced Engineering Informatics, vol. 52, article 101553, 2022.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "pdfs/jordanou2022_esn_nmpc_aei.pdf",
+        "localPdf": true
+      },
+      {
+        "label": "Official",
+        "url": "https://doi.org/10.1016/j.aei.2022.101553",
+        "localPdf": false
+      }
+    ]
+  },
+  {
+    "year": 2022,
+    "title": "Echo State Networks for Practical Nonlinear Model Predictive Control of Unknown Dynamic Systems",
+    "authorsHtml": "Jean Panaioti Jordanou, <strong>Eric Aislan Antonelo</strong>, and Eduardo Camponogara",
+    "authorsText": "Jean Panaioti Jordanou, Eric Aislan Antonelo, and Eduardo Camponogara",
+    "venue": "IEEE Transactions on Neural Networks and Learning Systems, vol. 33, no. 6, pp. 2615–2629, 2022.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "pdfs/jordanou2021_esn_pnmpc_ieee_neuralnetworks.pdf",
+        "localPdf": true
+      },
+      {
+        "label": "Official",
+        "url": "https://doi.org/10.1109/TNNLS.2021.3136357",
+        "localPdf": false
+      }
+    ]
+  },
+  {
+    "year": 2021,
+    "title": "Generative Adversarial Imitation Learning for End-to-End Autonomous Driving on Urban Environments",
+    "authorsHtml": "Gustavo Claudio Karl Couto and <strong>Eric Aislan Antonelo</strong>",
+    "authorsText": "Gustavo Claudio Karl Couto and Eric Aislan Antonelo",
+    "venue": "2021 IEEE Symposium Series on Computational Intelligence (SSCI), pp. 1–7, 2021.",
+    "members": [
+      "eric-antonelo",
+      "gustavo-couto"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "pdfs/ssci2021_paper_gail_carla.pdf",
+        "localPdf": true
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2110.08586",
+        "localPdf": false
+      }
+    ]
+  },
+  {
+    "year": 2021,
+    "title": "Proximal Policy Optimization with Continuous Bounded Action Space via the Beta Distribution",
+    "authorsHtml": "Irving G. B. Petrazzini and <strong>Eric A. Antonelo</strong>",
+    "authorsText": "Irving G. B. Petrazzini and Eric A. Antonelo",
+    "venue": "2021 IEEE Symposium Series on Computational Intelligence (SSCI), pp. 1–8, 2021.",
+    "members": [
+      "eric-antonelo",
+      "irving-petrazzini"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "pdfs/ssci2021_paper_ppo_beta.pdf",
+        "localPdf": true
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2111.02202",
+        "localPdf": false
+      },
+      {
+        "label": "Official",
+        "url": "https://doi.org/10.1109/SSCI50451.2021.9660123",
+        "localPdf": false
+      }
+    ]
+  },
+  {
+    "year": 2021,
+    "title": "Face Reconstruction with Variational Autoencoder and Face Masks",
+    "authorsHtml": "Rafael S. Toledo and <strong>Eric A. Antonelo</strong>",
+    "authorsText": "Rafael S. Toledo and Eric A. Antonelo",
+    "venue": "XVIII Encontro Nacional de Inteligência Artificial e Computacional (ENIAC 2021), p. 536, 2021.",
+    "members": [
+      "eric-antonelo",
+      "rafael-toledo"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://sol.sbc.org.br/index.php/eniac/article/download/18282/18116/",
+        "localPdf": false
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2112.02139",
+        "localPdf": false
+      },
+      {
+        "label": "Official",
+        "url": "https://doi.org/10.5753/eniac.2021.18282",
+        "localPdf": false
+      }
+    ]
+  },
+  {
+    "year": 2021,
+    "title": "Cone Detection with Convolutional Neural Networks for an Autonomous Formula Student Race Car",
+    "authorsHtml": "L. M. S. Parizotto and <strong>Eric A. Antonelo</strong>",
+    "authorsText": "L. M. S. Parizotto and Eric A. Antonelo",
+    "venue": "26th ABCM International Congress of Mechanical Engineering (COBEM 2021), 2021.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "pdfs/cobem_2021_cone_detection.pdf",
+        "localPdf": true
+      }
+    ]
+  },
+  {
+    "year": 2020,
+    "title": "It is double pleasure to deceive the deceiver: disturbing classifiers against adversarial attacks",
+    "authorsHtml": "João G. Zago, <strong>Eric A. Antonelo</strong>, Fabio L. Baldissera, and Rodrigo T. Saad",
+    "authorsText": "João G. Zago, Eric A. Antonelo, Fabio L. Baldissera, and Rodrigo T. Saad",
+    "venue": "2020 IEEE International Conference on Systems, Man, and Cybernetics (SMC), pp. 160–165, 2020.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "pdfs/deceive_adversarial_attacks_Zago.pdf",
+        "localPdf": true
+      },
+      {
+        "label": "Official",
+        "url": "https://doi.org/10.1109/SMC42975.2020.9282889",
+        "localPdf": false
+      }
+    ]
+  },
+  {
+    "year": 2019,
+    "title": "Online learning control with Echo State Networks of an oil production platform",
+    "authorsHtml": "Jean P. Jordanou, <strong>Eric A. Antonelo</strong>, and Eduardo Camponogara",
+    "authorsText": "Jean P. Jordanou, Eric A. Antonelo, and Eduardo Camponogara",
+    "venue": "Engineering Applications of Artificial Intelligence, vol. 85, pp. 214–228, 2019.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "pdfs/eaai_2019_jordanou_esn_control.pdf",
+        "localPdf": true
+      },
+      {
+        "label": "Official",
+        "url": "https://doi.org/10.1016/j.engappai.2019.06.011",
+        "localPdf": false
+      },
+      {
+        "label": "Open copy / repository",
+        "url": "https://www.researchgate.net/publication/336183368_Online_learning_control_with_Echo_State_Networks_of_an_oil_production_platform",
+        "localPdf": false
+      }
+    ]
+  },
+  {
+    "year": 2019,
+    "title": "On importance weighting for electric fraud detection with dataset shifts",
+    "authorsHtml": "<strong>Eric Aislan Antonelo</strong> and Radu State",
+    "authorsText": "Eric Aislan Antonelo and Radu State",
+    "venue": "IEEE International Conference on Systems, Man, and Cybernetics (SMC), Bari, 2019.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": [
+      {
+        "label": "Official",
+        "url": "https://doi.org/10.1109/SMC.2019.8913991",
+        "localPdf": false
+      }
+    ]
+  },
+  {
+    "year": 2018,
+    "title": "Reservoir computing for detection of steady state in performance tests of compressors",
+    "authorsHtml": "<strong>Eric Aislan Antonelo</strong>, Carlos Alberto Flesch, and Filipe Schmitz",
+    "authorsText": "Eric Aislan Antonelo, Carlos Alberto Flesch, and Filipe Schmitz",
+    "venue": "Neurocomputing, vol. 275, pp. 598–607, 2018.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "pdfs/2017_neurocomp_eric.pdf",
+        "localPdf": true
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/1706.00782",
+        "localPdf": false
+      },
+      {
+        "label": "Official",
+        "url": "https://doi.org/10.1016/j.neucom.2017.09.005",
+        "localPdf": false
+      }
+    ]
+  },
+  {
+    "year": 2018,
+    "title": "Nonlinear Model Predictive Control of an Oil Well with Echo State Networks",
+    "authorsHtml": "Jean P. Jordanou, Eduardo Camponogara, <strong>Eric Aislan Antonelo</strong>, and Marco Aurélio S. de Aguiar",
+    "authorsText": "Jean P. Jordanou, Eduardo Camponogara, Eric Aislan Antonelo, and Marco Aurélio S. de Aguiar",
+    "venue": "IFAC-PapersOnLine, vol. 51, no. 8, pp. 13–18, 2018.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "pdfs/2018_ifac_jean_eric_mpc_esn_0.pdf",
+        "localPdf": true
+      },
+      {
+        "label": "Official",
+        "url": "https://doi.org/10.1016/j.ifacol.2018.06.348",
+        "localPdf": false
+      }
+    ]
+  },
+  {
+    "year": 2017,
+    "title": "Echo State Networks for data-driven downhole pressure estimation in gas-lift oil wells",
+    "authorsHtml": "<strong>Eric A. Antonelo</strong>, Eduardo Camponogara, and Bjarne Foss",
+    "authorsText": "Eric A. Antonelo, Eduardo Camponogara, and Bjarne Foss",
+    "venue": "Neural Networks, vol. 85, pp. 106–117, 2017.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "pdfs/2016_nn_eric.pdf",
+        "localPdf": true
+      },
+      {
+        "label": "Official",
+        "url": "https://doi.org/10.1016/j.neunet.2016.09.009",
+        "localPdf": false
+      }
+    ]
+  },
+  {
+    "year": 2017,
+    "title": "Recurrent Dynamical Projection for Time Series-Based Fraud Detection",
+    "authorsHtml": "<strong>Eric A. Antonelo</strong> and Radu State",
+    "authorsText": "Eric A. Antonelo and Radu State",
+    "venue": "International Conference on Artificial Neural Networks (ICANN), Lecture Notes in Computer Science, pp. 503–511, 2017.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "pdfs/2017_icann_eric_frauddetection_RC.pdf",
+        "localPdf": true
+      },
+      {
+        "label": "Official",
+        "url": "https://doi.org/10.1007/978-3-319-68612-7_57",
+        "localPdf": false
+      },
+      {
+        "label": "Open copy / repository",
+        "url": "https://orbilu.uni.lu/handle/10993/32388",
+        "localPdf": false
+      }
+    ]
+  },
+  {
+    "year": 2017,
+    "title": "Recurrent Neural Network based control of an Oil Well",
+    "authorsHtml": "Jean P. Jordanou, <strong>Eric A. Antonelo</strong>, Eduardo Camponogara, and Marco Aurélio S. de Aguiar",
+    "authorsText": "Jean P. Jordanou, Eric A. Antonelo, Eduardo Camponogara, and Marco Aurélio S. de Aguiar",
+    "venue": "XIII Brazilian Symposium on Intelligent Automation (SBAI), pp. 924–931, 2017.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "pdfs/2017_sbai_jean.pdf",
+        "localPdf": true
+      }
+    ]
+  },
+  {
+    "year": 2016,
+    "title": "Predicting Air Compressor Failures with Echo State Networks",
+    "authorsHtml": "Yuantao Fan, Sławomir Nowaczyk, Thorsteinn Rögnvaldsson, and <strong>Eric A. Antonelo</strong>",
+    "authorsText": "Yuantao Fan, Sławomir Nowaczyk, Thorsteinn Rögnvaldsson, and Eric A. Antonelo",
+    "venue": "Third European Conference of the Prognostics and Health Management Society, 2016.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "pdfs/2016_phme_fan.pdf",
+        "localPdf": true
+      },
+      {
+        "label": "Official",
+        "url": "https://doi.org/10.36001/phme.2016.v3i1.1658",
+        "localPdf": false
+      }
+    ]
+  },
+  {
+    "year": 2015,
+    "title": "System Identification of a Vertical Riser Model with Echo State Networks",
+    "authorsHtml": "<strong>Eric A. Antonelo</strong>, Eduardo Camponogara, and Agustinho Plucenio",
+    "authorsText": "Eric A. Antonelo, Eduardo Camponogara, and Agustinho Plucenio",
+    "venue": "IFAC-PapersOnLine, vol. 48, no. 6, pp. 304–310, 2015.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "pdfs/2015_eric_ifac_oilfield.pdf",
+        "localPdf": true
+      },
+      {
+        "label": "Official",
+        "url": "https://doi.org/10.1016/j.ifacol.2015.08.048",
+        "localPdf": false
+      }
+    ]
+  },
+  {
+    "year": 2015,
+    "title": "An Echo State Network-based Soft Sensor of Downhole Pressure for a Gas-lift Oil Well",
+    "authorsHtml": "<strong>Eric A. Antonelo</strong> and Eduardo Camponogara",
+    "authorsText": "Eric A. Antonelo and Eduardo Camponogara",
+    "venue": "16th International Conference on Engineering Applications of Neural Networks (EANN), CCIS vol. 517, pp. 379–389, 2015.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "pdfs/2015_eann_eric_draft.pdf",
+        "localPdf": true
+      },
+      {
+        "label": "Official",
+        "url": "https://doi.org/10.1007/978-3-319-23983-5_35",
+        "localPdf": false
+      }
+    ]
+  },
+  {
+    "year": 2015,
+    "title": "On Learning Navigation Behaviors for Small Mobile Robots With Reservoir Computing Architectures",
+    "authorsHtml": "<strong>Eric A. Antonelo</strong> and Benjamin Schrauwen",
+    "authorsText": "Eric A. Antonelo and Benjamin Schrauwen",
+    "venue": "IEEE Transactions on Neural Networks and Learning Systems, vol. 26, no. 4, pp. 763–780, 2015.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "pdfs/NavigationBehaviors-EAntonelo-TNNLS_2014.pdf",
+        "localPdf": true
+      },
+      {
+        "label": "Official",
+        "url": "https://doi.org/10.1109/TNNLS.2014.2323247",
+        "localPdf": false
+      }
+    ]
+  },
+  {
+    "year": 2012,
+    "title": "Learning Slow Features with Reservoir Computing for Biologically-inspired Robot Localization",
+    "authorsHtml": "<strong>Eric A. Antonelo</strong> and Benjamin Schrauwen",
+    "authorsText": "Eric A. Antonelo and Benjamin Schrauwen",
+    "venue": "Neural Networks, vol. 25, pp. 178–190, 2012.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "pdfs/2011_eric_nn_draft.pdf",
+        "localPdf": true
+      },
+      {
+        "label": "Official",
+        "url": "https://doi.org/10.1016/j.neunet.2011.08.004",
+        "localPdf": false
+      }
+    ]
+  },
+  {
+    "year": 2011,
+    "title": "Learning navigation attractors for mobile robots with reinforcement learning and reservoir computing",
+    "authorsHtml": "<strong>Eric A. Antonelo</strong>, Stefan Depeweg, and Benjamin Schrauwen",
+    "authorsText": "Eric A. Antonelo, Stefan Depeweg, and Benjamin Schrauwen",
+    "venue": "X Brazilian Congress on Computational Intelligence (CBIC), Fortaleza, 2011.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": []
+  },
+  {
+    "year": 2010,
+    "title": "Supervised Learning of Internal Models for Autonomous Goal-Oriented Robot Navigation using Reservoir Computing",
+    "authorsHtml": "<strong>Eric A. Antonelo</strong> and Benjamin Schrauwen",
+    "authorsText": "Eric A. Antonelo and Benjamin Schrauwen",
+    "venue": "IEEE International Conference on Robotics and Automation (ICRA), pp. 2959–2964, 2010.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "pdfs/2010_eric_icra_Supervised%20learning%20of%20internal%20models.pdf",
+        "localPdf": true
+      },
+      {
+        "label": "Official",
+        "url": "https://doi.org/10.1109/ROBOT.2010.5509212",
+        "localPdf": false
+      }
+    ]
+  },
+  {
+    "year": 2009,
+    "title": "Unsupervised Learning in Reservoir Computing: Modeling Hippocampal Place Cells for Small Mobile Robots",
+    "authorsHtml": "<strong>Eric A. Antonelo</strong>, Benjamin Schrauwen, and Dirk Stroobandt",
+    "authorsText": "Eric A. Antonelo, Benjamin Schrauwen, and Dirk Stroobandt",
+    "venue": "International Conference on Artificial Neural Networks (ICANN), LNCS vol. 5768, pp. 747–756, 2009.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": []
+  },
+  {
+    "year": 2009,
+    "title": "Modular reservoir computing networks for imitation learning of multiple robot behaviors",
+    "authorsHtml": "Tim Waegeman, <strong>Eric A. Antonelo</strong>, Francis Wyffels, and Benjamin Schrauwen",
+    "authorsText": "Tim Waegeman, Eric A. Antonelo, Francis Wyffels, and Benjamin Schrauwen",
+    "venue": "IEEE International Symposium on Computational Intelligence in Robotics and Automation (CIRA), pp. 27–32, 2009.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "pdfs/2009_tim_cira_ModularRC.pdf",
+        "localPdf": true
+      }
+    ]
+  },
+  {
+    "year": 2009,
+    "title": "Towards autonomous self-localization of small mobile robots using reservoir computing and slow feature analysis",
+    "authorsHtml": "<strong>Eric A. Antonelo</strong> and Benjamin Schrauwen",
+    "authorsText": "Eric A. Antonelo and Benjamin Schrauwen",
+    "venue": "IEEE International Conference on Systems, Man, and Cybernetics (SMC), pp. 3818–3823, 2009.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "pdfs/2009_eric_smc_towards_self_localization.pdf",
+        "localPdf": true
+      }
+    ]
+  },
+  {
+    "year": 2009,
+    "title": "On different learning approaches with echo state networks for localization of small mobile robots",
+    "authorsHtml": "<strong>Eric A. Antonelo</strong> and Benjamin Schrauwen",
+    "authorsText": "Eric A. Antonelo and Benjamin Schrauwen",
+    "venue": "IX Brazilian Conference on Neural Networks (CBRN), 2009.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "pdfs/2009_eric_cbrn_On%20different%20learning%20approaches.pdf",
+        "localPdf": true
+      }
+    ]
+  },
+  {
+    "year": 2008,
+    "title": "Event detection and localization for small mobile robots using reservoir computing",
+    "authorsHtml": "<strong>Eric A. Antonelo</strong>, Benjamin Schrauwen, and Dirk Stroobandt",
+    "authorsText": "Eric A. Antonelo, Benjamin Schrauwen, and Dirk Stroobandt",
+    "venue": "Neural Networks, vol. 21, no. 6, pp. 862–871, 2008.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "pdfs/2008_eric_nn_draft.pdf",
+        "localPdf": true
+      },
+      {
+        "label": "Official",
+        "url": "https://doi.org/10.1016/j.neunet.2008.06.010",
+        "localPdf": false
+      }
+    ]
+  },
+  {
+    "year": 2008,
+    "title": "Mobile Robot Control in the Road Sign Problem using Reservoir Computing Networks",
+    "authorsHtml": "<strong>Eric A. Antonelo</strong>, Benjamin Schrauwen, and Dirk Stroobandt",
+    "authorsText": "Eric A. Antonelo, Benjamin Schrauwen, and Dirk Stroobandt",
+    "venue": "IEEE International Conference on Robotics and Automation (ICRA), pp. 911–916, 2008.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "pdfs/2008_eric_icra_Mobile%20Robot%20Control%20in%20the%20Road%20Sign%20Problem.pdf",
+        "localPdf": true
+      }
+    ]
+  },
+  {
+    "year": 2008,
+    "title": "Modeling Multiple Autonomous Robot Behaviors and Behavior Switching with a Single Reservoir Computing Network",
+    "authorsHtml": "<strong>Eric A. Antonelo</strong>, Benjamin Schrauwen, and Dirk Stroobandt",
+    "authorsText": "Eric A. Antonelo, Benjamin Schrauwen, and Dirk Stroobandt",
+    "venue": "IEEE International Conference on Systems, Man and Cybernetics (SMC), pp. 1843–1848, 2008.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "pdfs/2008_eric_smc_Modeling%20Multiple%20Autonomous%20Robot%20Behaviors.pdf",
+        "localPdf": true
+      }
+    ]
+  },
+  {
+    "year": 2008,
+    "title": "Imitation Learning of an Intelligent Navigation System for Mobile Robots using Reservoir Computing",
+    "authorsHtml": "<strong>Eric A. Antonelo</strong>, Benjamin Schrauwen, and Dirk Stroobandt",
+    "authorsText": "Eric A. Antonelo, Benjamin Schrauwen, and Dirk Stroobandt",
+    "venue": "10th Brazilian Symposium on Neural Networks (SBRN), pp. 93–98, 2008.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "pdfs/2008_eric_sbrn.pdf",
+        "localPdf": true
+      }
+    ]
+  },
+  {
+    "year": 2007,
+    "title": "Generative Modeling of Autonomous Robots and their Environments using Reservoir Computing",
+    "authorsHtml": "<strong>Eric A. Antonelo</strong>, Benjamin Schrauwen, and Jan Van Campenhout",
+    "authorsText": "Eric A. Antonelo, Benjamin Schrauwen, and Jan Van Campenhout",
+    "venue": "Neural Processing Letters, vol. 26, pp. 233–249, 2007.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "pdfs/2007_eric_npl_GenerativeModeling.pdf",
+        "localPdf": true
+      },
+      {
+        "label": "Official",
+        "url": "https://doi.org/10.1007/s11063-007-9054-9",
+        "localPdf": false
+      }
+    ]
+  },
+  {
+    "year": 2007,
+    "title": "A Step Towards Autonomy in Robotics via Reservoir Computing",
+    "authorsHtml": "<strong>Eric A. Antonelo</strong>, Xavier Dutoit, Benjamin Schrauwen, Dirk Stroobandt, Herman Van Brussel, and Marnix Nuttin",
+    "authorsText": "Eric A. Antonelo, Xavier Dutoit, Benjamin Schrauwen, Dirk Stroobandt, Herman Van Brussel, and Marnix Nuttin",
+    "venue": "NIPS 2007 Workshop: Robotics Challenges for Machine Learning, 2007.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": []
+  },
+  {
+    "year": 2007,
+    "title": "Event detection and localization in mobile robot navigation using reservoir computing",
+    "authorsHtml": "<strong>Eric A. Antonelo</strong>, Benjamin Schrauwen, Xavier Dutoit, Dirk Stroobandt, and Marnix Nuttin",
+    "authorsText": "Eric A. Antonelo, Benjamin Schrauwen, Xavier Dutoit, Dirk Stroobandt, and Marnix Nuttin",
+    "venue": "International Conference on Artificial Neural Networks (ICANN), LNCS vol. 4669, pp. 660–669, 2007.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "pdfs/2007_eric_icann_localization.pdf",
+        "localPdf": true
+      }
+    ]
+  },
+  {
+    "year": 2007,
+    "title": "Experiments with Reservoir Computing on the road sign problem",
+    "authorsHtml": "<strong>Eric A. Antonelo</strong>, Benjamin Schrauwen, and Dirk Stroobandt",
+    "authorsText": "Eric A. Antonelo, Benjamin Schrauwen, and Dirk Stroobandt",
+    "venue": "VIII Brazilian Congress on Neural Networks (CBRN), 2007.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "pdfs/2007_eric_cbrn_Experiments.pdf",
+        "localPdf": true
+      }
+    ]
+  },
+  {
+    "year": 2006,
+    "title": "Modular Neural Network and Classical Reinforcement Learning for Autonomous Robot Navigation: Inhibiting Undesirable Behaviors",
+    "authorsHtml": "<strong>Eric A. Antonelo</strong>, Albert-Jan Baerveldt, Thorsteinn Rögnvaldsson, and Mauricio Figueiredo",
+    "authorsText": "Eric A. Antonelo, Albert-Jan Baerveldt, Thorsteinn Rögnvaldsson, and Mauricio Figueiredo",
+    "venue": "International Joint Conference on Neural Networks (IJCNN), pp. 498–505, 2006.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "pdfs/2006_eric_ijcnn_modular.pdf",
+        "localPdf": true
+      },
+      {
+        "label": "Official",
+        "url": "https://doi.org/10.1109/IJCNN.2006.246723",
+        "localPdf": false
+      }
+    ]
+  },
+  {
+    "year": 2005,
+    "title": "Intelligent autonomous navigation for mobile robots: spatial concept acquisition and object discrimination",
+    "authorsHtml": "<strong>Eric A. Antonelo</strong>, Mauricio Figueiredo, Albert-Jan Baerveldt, and Rodrigo Calvo",
+    "authorsText": "Eric A. Antonelo, Mauricio Figueiredo, Albert-Jan Baerveldt, and Rodrigo Calvo",
+    "venue": "6th IEEE International Symposium on Computational Intelligence in Robotics and Automation (CIRA), pp. 553–557, 2005.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "pdfs/2005_eric_cira_0.pdf",
+        "localPdf": true
+      },
+      {
+        "label": "Official",
+        "url": "https://doi.org/10.1109/CIRA.2005.1554335",
+        "localPdf": false
+      }
+    ]
+  },
+  {
+    "year": 2005,
+    "title": "Evolutionary fuzzy system for architecture control in a constructive neural network",
+    "authorsHtml": "Rodrigo Calvo, Mauricio Figueiredo, and <strong>Eric A. Antonelo</strong>",
+    "authorsText": "Rodrigo Calvo, Mauricio Figueiredo, and Eric A. Antonelo",
+    "venue": "6th IEEE International Symposium on Computational Intelligence in Robotics and Automation (CIRA), pp. 541–546, 2005.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "pdfs/2005_calvo_cira.pdf",
+        "localPdf": true
+      },
+      {
+        "label": "Official",
+        "url": "https://doi.org/10.1109/CIRA.2005.1554333",
+        "localPdf": false
+      }
+    ]
+  },
+  {
+    "year": 2004,
+    "title": "Sistemas autônomos inteligentes aplicados à navegação de robôs: aquisição de conceitos espaciais e discriminação de objetos",
+    "authorsHtml": "<strong>Eric A. Antonelo</strong> and Mauricio Figueiredo",
+    "authorsText": "Eric A. Antonelo and Mauricio Figueiredo",
+    "venue": "II Encontro de Robótica Inteligente / XXIV Congresso da Sociedade Brasileira de Computação, 2004.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": []
+  },
+  {
+    "year": 2002,
+    "title": "Estruturas neurais para modelagem de memórias biológicas declarativas aplicadas a sistemas autônomos de navegação de robôs",
+    "authorsHtml": "<strong>Eric A. Antonelo</strong> and Mauricio Figueiredo",
+    "authorsText": "Eric A. Antonelo and Mauricio Figueiredo",
+    "venue": "IV Fórum de Informática e Tecnologia de Maringá, 2002.",
+    "members": [
+      "eric-antonelo"
+    ],
+    "links": []
+  }
+]
