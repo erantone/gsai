@@ -446,6 +446,65 @@
     }
     .hero-location strong { color: var(--text); }
 
+
+    /* Funding and institutional support */
+    .support-card {
+      display:grid;
+      grid-template-columns:1.25fr .75fr;
+      gap:18px;
+    }
+    .support-group {
+      padding:22px;
+      border-radius:20px;
+      background:#fff;
+      color:#0b1220;
+      border:1px solid rgba(255,255,255,.12);
+    }
+    .support-kicker {
+      display:block;
+      margin-bottom:12px;
+      color:#5d6b82;
+      font-size:.76rem;
+      font-weight:800;
+      letter-spacing:.08em;
+      text-transform:uppercase;
+    }
+    .support-logos {
+      display:flex;
+      align-items:center;
+      gap:30px;
+      flex-wrap:wrap;
+      min-height:74px;
+    }
+    .support-logo-link {
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      text-decoration:none;
+    }
+    .support-logo {
+      display:block;
+      width:auto;
+      height:auto;
+      max-height:62px;
+      max-width:190px;
+    }
+    .support-logo.capes { max-width:205px; }
+    .support-logo.ufsc { max-width:225px; max-height:72px; }
+    .support-note {
+      margin:14px 0 0;
+      color:#56657c;
+      font-size:.9rem;
+      line-height:1.45;
+    }
+    @media (max-width:720px) {
+      .support-card { grid-template-columns:1fr; }
+      .support-logos { gap:22px; }
+      .support-logo { max-width:155px; max-height:54px; }
+      .support-logo.capes { max-width:175px; }
+      .support-logo.ufsc { max-width:195px; max-height:64px; }
+    }
+
 </style>
 </head>
 <body id="top"><div id="site-nav"></div><script src="shared-nav.js?v=20261023-2"></script>
@@ -535,6 +594,36 @@
 </ul>
 </div>
 </section>
+
+<section id="support">
+<div class="section-head">
+<h2>Funding &amp; institutional support</h2>
+</div>
+<div class="support-card">
+  <div class="support-group">
+    <span class="support-kicker">Apoio · Funding support</span>
+    <div class="support-logos">
+      <a class="support-logo-link" href="https://www.gov.br/cnpq/pt-br" target="_blank" rel="noopener noreferrer" aria-label="CNPq">
+        <img class="support-logo" src="images/logos/cnpq.svg" alt="CNPq"/>
+      </a>
+      <a class="support-logo-link" href="https://www.gov.br/capes/pt-br" target="_blank" rel="noopener noreferrer" aria-label="CAPES">
+        <img class="support-logo capes" src="images/logos/capes.svg" alt="CAPES"/>
+      </a>
+    </div>
+    <p class="support-note">CNPq — research projects and scholarships. CAPES — graduate scholarships (MSc/PhD).</p>
+  </div>
+  <div class="support-group">
+    <span class="support-kicker">Host institution</span>
+    <div class="support-logos">
+      <a class="support-logo-link" href="https://ufsc.br/" target="_blank" rel="noopener noreferrer" aria-label="Federal University of Santa Catarina">
+        <img class="support-logo ufsc" src="images/logos/ufsc.svg" alt="Universidade Federal de Santa Catarina (UFSC)"/>
+      </a>
+    </div>
+    <p class="support-note">Federal University of Santa Catarina (UFSC), Florianópolis, Brazil.</p>
+  </div>
+</div>
+</section>
+
 <section id="contact">
 <div class="section-head">
 <h2>Contact</h2>
