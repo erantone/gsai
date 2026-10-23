@@ -32,6 +32,14 @@
         ${n.meta?.length?`<div class="news-meta">${n.meta.map(m=>`<div class="box"><strong>${esc(m.label)}</strong><br>${esc(m.value)}</div>`).join('')}</div>`:''}
         ${n.related?.length?`<div class="news-related"><strong>Related publications</strong><ul>${n.related.map(r=>`<li><a href="${esc(r.url)}" target="_blank" rel="noopener noreferrer">${esc(r.title)}</a> <span class="muted">· ${esc(r.label)}</span></li>`).join('')}</ul></div>`:''}
       </article>`).join('')}</div>`;
+
+    if (window.location.hash) {
+      const targetId = decodeURIComponent(window.location.hash.slice(1));
+      const target = document.getElementById(targetId);
+      if (target) {
+        requestAnimationFrame(() => target.scrollIntoView({behavior:'smooth', block:'start'}));
+      }
+    }
   }
 
   async function renderMembers() {
