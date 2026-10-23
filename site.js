@@ -66,7 +66,7 @@
     const host=document.getElementById('selected-publications-content'); if(!host) return;
     const data=await load('data/publications.json'); const selected=data.filter(p=>p.selected).sort((a,b)=>(a.selectedOrder??999)-(b.selectedOrder??999));
     host.className='pub-grid';
-    host.innerHTML=selected.map(p=>`<div class="pub-item"><span class="tag">${esc(p.selectedTag)}</span><h4>${esc(p.title)}</h4><p>${esc(p.selectedSummary)}</p></div>`).join('');
+    host.innerHTML=selected.map(p=>`<div class="pub-item"><span class="tag">${esc(p.selectedTag)}</span><h4>${esc(p.title)}</h4><p>${esc(p.selectedSummary)}</p>${p.links?.length?`<div class="pub-actions">${p.links.map(l=>`<a class="pub-link${l.localPdf?' local-pdf':''}" href="${esc(l.url)}" target="_blank" rel="noopener noreferrer">${esc(l.label)}</a>`).join('')}</div>`:''}</div>`).join('');
   }
 
   function normalizeText(s) { return (s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').replace(/\s+/g,' ').trim(); }
