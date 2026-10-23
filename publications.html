@@ -203,9 +203,26 @@
       .alumni-list { columns: 1; }
     }
     @media (max-width: 720px) {
-      .menu { display: none; }
+      .nav .inner {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 12px 0 10px;
+      }
+      .menu {
+        display: flex;
+        width: 100%;
+        flex-wrap: nowrap;
+        gap: 16px;
+        overflow-x: auto;
+        white-space: nowrap;
+        padding: 2px 0 5px;
+        scrollbar-width: none;
+        -webkit-overflow-scrolling: touch;
+      }
+      .menu::-webkit-scrollbar { display: none; }
       .hero-card, .side-card, .section-card { padding: 22px; }
-      .hero { padding-top: 64px; }
+      .hero { padding-top: 48px; }
     }
   
 .pub-page-hero { padding: 64px 0 24px; }
