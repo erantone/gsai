@@ -1,6 +1,6 @@
 (() => {
   const esc = (s) => String(s ?? '').replace(/[&<>\"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;',"'":'&#39;'}[c]));
-  const load = (url) => fetch(url).then(r => { if (!r.ok) throw new Error(`${url}: ${r.status}`); return r.json(); });
+  const load = (url) => fetch(url, { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error(`${url}: ${r.status}`); return r.json(); });
   const groupBy = (items, key) => items.reduce((m,x) => ((m[x[key]] ||= []).push(x), m), {});
 
   async function renderNews() {
