@@ -18,48 +18,9 @@
 <meta name="twitter:description" content="Publications by Eric Aislan Antonelo, with filters for works involving current and former members of the Intelligent Autonomous Systems Group (GSAI)."/>
 <meta name="twitter:image" content="https://erantone.github.io/gsai/images/people/eric-aislan-antonelo.jpg"/>
 <title>Publications · GSAI · UFSC</title>
+<link rel="stylesheet" href="styles.css?v=20261023-1"/>
 <style>
-    :root {
-      --bg: #0b1220;
-      --panel: #111a2e;
-      --panel-2: #16213b;
-      --text: #e8eefc;
-      --muted: #a9b7d7;
-      --line: rgba(255,255,255,.08);
-      --accent: #61dafb;
-      --accent-2: #8cffc1;
-      --max: 1180px;
-      --shadow: 0 18px 40px rgba(0,0,0,.28);
-      --radius: 22px;
-    }
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
-    body {
-      margin: 0;
-      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background:
-        radial-gradient(circle at 10% 10%, rgba(97,218,251,.14), transparent 30%),
-        radial-gradient(circle at 90% 10%, rgba(140,255,193,.10), transparent 28%),
-        linear-gradient(180deg, #08101d 0%, #0b1220 100%);
-      color: var(--text);
-      line-height: 1.6;
-    }
-    a { color: var(--accent); text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .wrap { width: min(var(--max), calc(100% - 32px)); margin: 0 auto; }
-    .nav {
-      position: sticky; top: 0; z-index: 100;
-      backdrop-filter: blur(12px);
-      background: rgba(8, 16, 29, .72);
-      border-bottom: 1px solid var(--line);
-    }
-    .nav .inner {
-      display: flex; align-items: center; justify-content: space-between;
-      gap: 24px; padding: 14px 0;
-    }
-    .brand { font-weight: 800; letter-spacing: .2px; color: white; }
-    .menu { display: flex; gap: 18px; flex-wrap: wrap; font-size: 14px; }
-    .hero {
+.hero {
       padding: 88px 0 56px;
     }
     .hero-grid {
@@ -91,20 +52,6 @@
       max-width: 62ch;
     }
     .hero-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 22px; }
-    .btn {
-      display: inline-flex; align-items: center; justify-content: center;
-      padding: 12px 18px; border-radius: 999px; font-weight: 700;
-      border: 1px solid var(--line);
-      transition: transform .2s ease, opacity .2s ease;
-    }
-    .btn:hover { transform: translateY(-1px); text-decoration: none; }
-    .btn.primary {
-      background: linear-gradient(135deg, var(--accent), #7dc9ff);
-      color: #07131f; border: none;
-    }
-    .btn.secondary {
-      background: rgba(255,255,255,.03); color: var(--text);
-    }
     .side-card {
       padding: 26px;
       display: grid; gap: 16px;
@@ -141,9 +88,7 @@
       display: inline-block; font-size: 12px; text-transform: uppercase; letter-spacing: .08em;
       color: var(--accent-2); font-weight: 800; margin-bottom: 10px;
     }
-    .news-meta {
-      display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 12px; margin-top: 18px;
-    }
+    .news-met
     .news-meta .box {
       padding: 14px; border-radius: 16px; background: rgba(255,255,255,.04); border: 1px solid var(--line);
       font-size: 14px;
@@ -205,10 +150,6 @@
       columns: 2; gap: 24px; padding-left: 18px; margin: 0;
     }
     .alumni-list li { break-inside: avoid; margin-bottom: 14px; color: var(--muted); }
-    .muted { color: var(--muted); }
-    .footer {
-      padding: 28px 0 54px; color: var(--muted); font-size: 14px;
-    }
     @media (max-width: 980px) {
       .hero-grid, .pillars, .grid-3, .pub-grid, .media-card, .news-meta {
         grid-template-columns: 1fr;
@@ -249,7 +190,6 @@
 .pub-actions { display:flex; flex-wrap:wrap; gap:8px; margin-top:10px; }
 .pub-link { display:inline-flex; padding:5px 10px; border:1px solid var(--line); border-radius:999px; font-size:12px; font-weight:700; background:rgba(255,255,255,.025); }
 .pub-link:hover { text-decoration:none; background:rgba(97,218,251,.08); }
-.source-note { margin-top:18px; font-size:.9rem; color:var(--muted); max-width:900px; }
 
     .publication-row .authors {
       margin: 0 0 7px;
@@ -279,7 +219,7 @@
       align-items: end;
       margin: 22px 0 30px;
       padding: 16px;
-      border: 1px solid var(--border);
+      border: 1px solid var(--line);
       border-radius: 16px;
       background: rgba(255,255,255,.025);
     }
@@ -294,7 +234,7 @@
     .pub-filter-field select,
     .pub-filter-field input {
       width: 100%;
-      border: 1px solid var(--border);
+      border: 1px solid var(--line);
       border-radius: 10px;
       padding: 10px 12px;
       background: var(--surface);
@@ -324,19 +264,6 @@
         padding-bottom: 0;
       }
     }
-
-    .footer-row {
-      display:flex;
-      justify-content:space-between;
-      align-items:center;
-      gap:16px;
-      flex-wrap:wrap;
-    }
-    .back-to-top {
-      font-weight:700;
-      white-space:nowrap;
-    }
-
 </style>
 </head>
 <body id="top"><div id="site-nav"></div><script src="shared-nav.js?v=20261023-2"></script>
