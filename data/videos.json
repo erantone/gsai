@@ -5,9 +5,18 @@
     "description": "Demonstration of the PPO-Beta policy achieving 913 ± 26 over 100 episodes on CarRacing-v0 — the best result listed on the archived OpenAI Gym CarRacing-v0 leaderboard.",
     "embedUrl": "https://www.youtube-nocookie.com/embed/KSoXwt77ueY?rel=0",
     "links": [
-      {"label": "Watch on YouTube", "url": "https://www.youtube.com/watch?v=KSoXwt77ueY"},
-      {"label": "Paper", "url": "https://arxiv.org/abs/2111.02202"},
-      {"label": "Leaderboard", "url": "https://github.com/openai/gym/wiki/Leaderboard"}
+      {
+        "label": "Watch on YouTube",
+        "url": "https://www.youtube.com/watch?v=KSoXwt77ueY"
+      },
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2111.02202"
+      },
+      {
+        "label": "Leaderboard",
+        "url": "https://github.com/openai/gym/wiki/Leaderboard"
+      }
     ]
   },
   {
@@ -16,20 +25,38 @@
     "description": "Hierarchical Generative Adversarial Imitation Learning controlling an autonomous vehicle in CARLA with traffic lights, pedestrians, and surrounding traffic.",
     "embedUrl": "https://www.youtube-nocookie.com/embed/wk44fIMnJXM?rel=0",
     "links": [
-      {"label": "Watch on YouTube", "url": "https://www.youtube.com/watch?v=wk44fIMnJXM"},
-      {"label": "Paper", "url": "https://arxiv.org/abs/2302.04823"},
-      {"label": "Project page", "url": "https://sites.google.com/view/hgail"}
+      {
+        "label": "Watch on YouTube",
+        "url": "https://www.youtube.com/watch?v=wk44fIMnJXM"
+      },
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2302.04823"
+      },
+      {
+        "label": "Project page",
+        "url": "https://sites.google.com/view/hgail"
+      }
     ]
   },
   {
     "title": "hGAIL commanded turns at an intersection",
-    "meta": "CARLA · Multimodal behavior",
+    "meta": "CARLA · Imitation learning",
     "description": "Demonstration of command-conditioned behavior generation in CARLA, showing different plausible maneuvers at the same urban intersection.",
     "embedUrl": "https://www.youtube-nocookie.com/embed/DmoQ0wuwPwE?rel=0",
     "links": [
-      {"label": "Watch on YouTube", "url": "https://www.youtube.com/watch?v=DmoQ0wuwPwE"},
-      {"label": "Paper", "url": "https://arxiv.org/abs/2302.04823"},
-      {"label": "Project page", "url": "https://sites.google.com/view/hgail"}
+      {
+        "label": "Watch on YouTube",
+        "url": "https://www.youtube.com/watch?v=DmoQ0wuwPwE"
+      },
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2302.04823"
+      },
+      {
+        "label": "Project page",
+        "url": "https://sites.google.com/view/hgail"
+      }
     ]
   },
   {
@@ -38,8 +65,14 @@
     "description": "Video demo associated with the Weighted Behavior Cloning project, illustrating autonomous driving performance in CARLA and complementing the comparison with standard behavior cloning.",
     "embedUrl": "https://www.youtube-nocookie.com/embed/UqOT6gdPbZI?rel=0",
     "links": [
-      {"label": "Watch on YouTube", "url": "https://www.youtube.com/watch?v=UqOT6gdPbZI"},
-      {"label": "Project page", "url": "https://sites.google.com/view/weighted-bc"}
+      {
+        "label": "Watch on YouTube",
+        "url": "https://www.youtube.com/watch?v=UqOT6gdPbZI"
+      },
+      {
+        "label": "Project page",
+        "url": "https://sites.google.com/view/weighted-bc"
+      }
     ]
   }
 ]
