@@ -44,7 +44,10 @@
         "url": "https://arxiv.org/abs/2609.01756",
         "label": "arXiv"
       }
-    ]
+    ],
+    "slug": "bracis-eniac-2026",
+    "date": "2026-10-22",
+    "summary": "GSAI members presented recent work on autonomous driving, BEV perception, and learning-based control at BRACIS/ENIAC 2026 in Cuiabá."
   },
   {
     "type": "project",
@@ -70,6 +73,9 @@
         "label": "Investigators",
         "value": "Eric Aislan Antonelo, Douglas Wildgrube Bertol, Marcelo Ricardo Stemmer, Luis Manuel Conde Bento"
       }
-    ]
+    ],
+    "slug": "cnpq-universal-policy-learning",
+    "date": "2025-01-01",
+    "summary": "CNPq Universal project on imitation learning, generative policies, and Bird’s-Eye View representations for autonomous vehicle navigation."
   }
 ]
