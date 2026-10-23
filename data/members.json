@@ -1,0 +1,68 @@
+[
+  {
+    "category": "Staff",
+    "name": "Eric Aislan Antonelo",
+    "role": "Professor / Coordinator",
+    "descriptionHtml": "Professor at UFSC (<a href=\"https://eas.ufsc.br/\" rel=\"noopener noreferrer\" target=\"_blank\">EAS</a>). Research interests include autonomous systems, imitation learning, reservoir computing, and physics-informed neural networks for modeling and control.",
+    "photo": "images/people/eric-aislan-antonelo.jpg"
+  },
+  {
+    "category": "PhD students",
+    "name": "Gustavo Claudio Karl Couto",
+    "role": "PhD Student",
+    "descriptionHtml": "Works on sim-to-real autonomous driving, including the development of a digital twin of the CTC campus at UFSC, implicit behavioral cloning, and validation on miniature autonomous vehicles.",
+    "photo": "images/people/gustavo-claudio-karl-couto.jpg"
+  },
+  {
+    "category": "PhD students",
+    "name": "Yessica Maria Valencia Lemos",
+    "role": "PhD Student",
+    "descriptionHtml": "Works on temporal modal consistency in learning-from-demonstration policies for multimodal robotic manipulation, with a focus on diffusion-based generative policies.",
+    "photo": "images/people/yessica-maria-valencia-lemos.webp"
+  },
+  {
+    "category": "Master students",
+    "name": "Felipe Carlos dos Santos",
+    "role": "Master Student",
+    "descriptionHtml": "Works on Bird’s-Eye View generation from autonomous vehicle cameras using transformers.",
+    "photo": "images/people/felipe-carlos-dos-santos.jpg"
+  },
+  {
+    "category": "Master students",
+    "name": "Eduardo Vargas Zummach",
+    "role": "Master Student",
+    "descriptionHtml": "Works on imitation learning based on generative models for autonomous vehicles.",
+    "photo": "images/people/eduardo-vargas-zummach.jpg"
+  },
+  {
+    "category": "Master students",
+    "name": "Rafael Bertolini",
+    "role": "Master Student",
+    "descriptionHtml": "Master’s student in the GSAI research group.",
+    "photo": "images/people/rafael-bertolini.jpg",
+    "photoStyle": "object-position:center 28%;"
+  },
+  {
+    "category": "Master students",
+    "name": "Amauri Cunha",
+    "role": "Master Student",
+    "descriptionHtml": "Master’s student in the GSAI research group.",
+    "photo": "images/people/amauri-cunha.jpg",
+    "photoStyle": "object-position: center 25%;"
+  },
+  {
+    "category": "Undergraduate students",
+    "name": "Gabriel Zipperer",
+    "role": "Undergraduate Student",
+    "descriptionHtml": "Undergraduate researcher in AI and autonomous systems.",
+    "photo": "images/people/gabriel-zipperer.jpg"
+  },
+  {
+    "category": "Undergraduate students",
+    "name": "Carolina Salvador",
+    "role": "Undergraduate Student",
+    "descriptionHtml": "Works on imitation learning and trajectory prediction for autonomous vehicles.",
+    "photo": "images/people/carolina-salvador.jpg",
+    "photoStyle": "object-position:center 30%;"
+  }
+]
