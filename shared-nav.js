@@ -9,7 +9,7 @@
   const home = (anchor) => onHome ? `#${anchor}` : `index.html#${anchor}`;
 
   const links = [
-    ["About", home("about")],
+    ["About", onHome ? "#top" : "index.html#top"],
     ["Research", home("research")],
     ["News", home("news")],
     ["Members", home("members")],
