@@ -3,6 +3,24 @@
   const load = (url) => fetch(url).then(r => { if (!r.ok) throw new Error(`${url}: ${r.status}`); return r.json(); });
   const groupBy = (items, key) => items.reduce((m,x) => ((m[x[key]] ||= []).push(x), m), {});
 
+  async function renderNews() {
+    const host=document.getElementById('news-content'); if(!host) return;
+    const data=await load('data/news.json');
+    host.innerHTML=`<div class="news-stack">${data.map(n=>`
+      <article class="news-card${n.type==='conference'?' featured-news':''}">
+        <div class="label">${esc(n.label)}</div>
+        <h3 class="news-title">${esc(n.title)}</h3>
+        ${n.heroImage?`<img class="news-hero" src="${esc(n.heroImage)}" alt="${esc(n.heroAlt||n.title)}">`:''}
+        <div class="news-copy">
+          ${(n.paragraphs||[]).map(p=>`<p class="muted">${esc(p)}</p>`).join('')}
+          ${(n.paragraphsHtml||[]).map(p=>`<p class="muted">${p}</p>`).join('')}
+        </div>
+        ${n.gallery?.length?`<div class="news-gallery">${n.gallery.map(g=>`<figure><img src="${esc(g.src)}" alt="${esc(g.alt||'')}"><figcaption>${esc(g.caption||'')}</figcaption></figure>`).join('')}</div>`:''}
+        ${n.meta?.length?`<div class="news-meta">${n.meta.map(m=>`<div class="box"><strong>${esc(m.label)}</strong><br>${esc(m.value)}</div>`).join('')}</div>`:''}
+        ${n.related?.length?`<div class="news-related"><strong>Related publications</strong><ul>${n.related.map(r=>`<li><a href="${esc(r.url)}" target="_blank" rel="noopener noreferrer">${esc(r.title)}</a> <span class="muted">· ${esc(r.label)}</span></li>`).join('')}</ul></div>`:''}
+      </article>`).join('')}</div>`;
+  }
+
   async function renderMembers() {
     const host=document.getElementById('members-content'); if(!host) return;
     const data=await load('data/members.json');
@@ -45,5 +63,5 @@
     memberFilter.addEventListener('change',applyFilters); searchInput.addEventListener('input',applyFilters); applyFilters();
   }
 
-  Promise.allSettled([renderMembers(),renderCollaboration(),renderVideos(),renderSelectedPublications(),renderPublications()]).then(results=>results.forEach(r=>{if(r.status==='rejected') console.error(r.reason)}));
+  Promise.allSettled([renderNews(),renderMembers(),renderCollaboration(),renderVideos(),renderSelectedPublications(),renderPublications()]).then(results=>results.forEach(r=>{if(r.status==='rejected') console.error(r.reason)}));
 })();
