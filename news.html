@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="pt-BR">
 <head>
 <meta charset="utf-8"/>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>News · GSAI UFSC</title>
+<title>Intelligent Autonomous Systems Group (GSAI)</title>
 <style>
     :root {
       --bg: #0b1220;
@@ -208,95 +209,219 @@
       .hero { padding-top: 64px; }
     }
   
-.pub-page-hero { padding: 64px 0 24px; }
-.pub-page-hero h1 { font-size: clamp(2.1rem, 4vw, 3.5rem); margin-bottom: 12px; }
-.pub-year { margin: 30px 0 12px; font-size: 1.55rem; }
-.publication-list { display: grid; gap: 12px; }
-.publication-row { padding: 18px 20px; border: 1px solid var(--line); border-radius: 18px; background: rgba(255,255,255,.025); }
-.publication-row h3 { margin: 0 0 6px; font-size: 1rem; line-height: 1.42; }
-.publication-row .venue { color: var(--muted); margin: 0; font-size: .93rem; }
-.pub-type { display: inline-block; margin-right: 7px; font-size: 11px; letter-spacing:.03em; text-transform: uppercase; color: var(--accent); }
-.pub-actions { display:flex; flex-wrap:wrap; gap:8px; margin-top:10px; }
-.pub-link { display:inline-flex; padding:5px 10px; border:1px solid var(--line); border-radius:999px; font-size:12px; font-weight:700; background:rgba(255,255,255,.025); }
-.pub-link:hover { text-decoration:none; background:rgba(97,218,251,.08); }
-.source-note { margin-top:18px; font-size:.9rem; color:var(--muted); max-width:900px; }
 
-    .publication-row .authors {
-      margin: 0 0 7px;
-      color: var(--muted);
-      font-size: .94rem;
-      line-height: 1.5;
-    }
-    .publication-row .authors strong {
-      color: var(--text);
-      font-weight: 700;
-    }
-    .publication-row h3 {
-      margin-top: 0;
-      margin-bottom: 7px;
-    }
-    .publication-row .venue {
-      line-height: 1.55;
-    }
-    .pub-link.local-pdf::before {
-      content: "↓ ";
-    }
+    .video-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+    .video-card{padding:0;overflow:hidden}
+    .video-embed{aspect-ratio:16/9;width:100%;border:0;display:block;background:#000}
+    .video-content{padding:18px 20px 20px}
+    .video-content h3{margin:0 0 8px}
+    .video-meta{font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--accent);margin-bottom:8px}
+    .video-links{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+    .video-links a{display:inline-flex;padding:6px 10px;border:1px solid var(--line);border-radius:999px;background:rgba(255,255,255,.025);font-size:12px;font-weight:700}
+    .video-links a:hover{text-decoration:none;background:rgba(97,218,251,.08)}
+    .video-note{margin-top:14px;color:var(--muted);font-size:.93rem}
+    @media (max-width: 900px){.video-grid{grid-template-columns:1fr}}
 
-    .pub-filter-bar {
-      display: grid;
-      grid-template-columns: minmax(220px, .8fr) minmax(260px, 1.2fr) auto;
-      gap: 14px;
-      align-items: end;
-      margin: 22px 0 30px;
-      padding: 16px;
+
+.video-thumb{
+  position:relative;display:block;aspect-ratio:16/9;overflow:hidden;background:#000;
+}
+.video-thumb img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .2s ease,opacity .2s ease}
+.video-thumb:hover img{transform:scale(1.02);opacity:.88}
+.video-play{
+  position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+  width:64px;height:64px;border-radius:50%;display:grid;place-items:center;
+  background:rgba(0,0,0,.72);border:1px solid rgba(255,255,255,.28);
+  font-size:27px;color:#fff;line-height:1;padding-left:4px;
+}
+.video-thumb:hover .video-play{background:rgba(0,0,0,.88)}
+
+    .collaborator-box {
       border: 1px solid var(--border);
       border-radius: 16px;
-      background: rgba(255,255,255,.025);
+      overflow: hidden;
+      background: rgba(255,255,255,.02);
     }
-    .pub-filter-field {
-      display: flex;
-      flex-direction: column;
-      gap: 7px;
+    .collaborator-row {
+      display: grid;
+      grid-template-columns: minmax(280px, 1fr) minmax(300px, 1.15fr);
+      gap: 16px;
+      align-items: center;
+      padding: 10px 14px;
+      border-top: 1px solid var(--border);
+    }
+    .collaborator-row:first-child { border-top: 0; }
+    .collaborator-main,
+    .collaborator-keywords {
+      line-height: 1.3;
+      margin: 0;
+    }
+    .collaborator-main em {
       color: var(--muted);
-      font-size: .85rem;
-      font-weight: 600;
+      font-style: normal;
     }
-    .pub-filter-field select,
-    .pub-filter-field input {
-      width: 100%;
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 10px 12px;
-      background: var(--surface);
-      color: var(--text);
-      font: inherit;
-      outline: none;
-    }
-    .pub-filter-field select:focus,
-    .pub-filter-field input:focus {
-      border-color: var(--accent);
-    }
-    .pub-filter-count {
+    .collaborator-keywords {
       color: var(--muted);
-      font-size: .9rem;
-      white-space: nowrap;
-      padding-bottom: 10px;
     }
-    .publication-row[hidden],
-    .year-section-hidden {
-      display: none !important;
+    #external-collaborators,
+    #internal-collaborators {
+      padding-top: 18px;
+      padding-bottom: 4px;
     }
-    @media (max-width: 800px) {
-      .pub-filter-bar {
+    #external-collaborators h2,
+    #internal-collaborators h2 {
+      margin-bottom: 10px;
+    }
+    @media (max-width: 760px) {
+      .collaborator-row {
         grid-template-columns: 1fr;
-      }
-      .pub-filter-count {
-        padding-bottom: 0;
+        gap: 4px;
       }
     }
 
+    .collaborator-section-box {
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      background: rgba(255,255,255,.025);
+      padding: 16px 18px 6px;
+    }
+
+    .collaborator-section-box h2 {
+      margin: 0 0 10px;
+    }
+
+    .collaborator-section-box .collaborator-box {
+      border: 0;
+      border-radius: 0;
+      background: transparent;
+      overflow: visible;
+    }
+
+    .collaborator-section-box .collaborator-row {
+      padding: 10px 0;
+      border-top: 1px solid var(--border);
+    }
+
+    .collaborator-section-box .collaborator-row:first-child {
+      border-top: 0;
+    }
+
+    #external-collaborators,
+    #internal-collaborators {
+      padding-top: 14px;
+      padding-bottom: 2px;
+    }
+
+    #collaboration {
+      padding-top: 30px;
+      padding-bottom: 10px;
+    }
+    #collaboration > .container > h2 {
+      margin-bottom: 18px;
+    }
+    .collaboration-subsection {
+      margin-top: 16px;
+    }
+    .collaboration-subsection:first-of-type {
+      margin-top: 0;
+    }
+    .collaboration-subsection .subsection-title {
+      margin: 0 0 10px;
+      font-size: 1.1rem;
+    }
+    .collaboration-list {
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      overflow: hidden;
+      background: rgba(255,255,255,.02);
+    }
+    .collaboration-row {
+      display: grid;
+      grid-template-columns: minmax(300px, 1.15fr) minmax(280px, 1fr);
+      gap: 16px;
+      align-items: center;
+      padding: 10px 14px;
+      border-top: 1px solid var(--border);
+    }
+    .collaboration-row:first-child {
+      border-top: 0;
+    }
+    .collaboration-person,
+    .collaboration-keywords {
+      line-height: 1.35;
+    }
+    .collaboration-person em {
+      color: var(--muted);
+      font-style: normal;
+    }
+    .collaboration-keywords {
+      color: var(--muted);
+    }
+    @media (max-width: 760px) {
+      .collaboration-row {
+        grid-template-columns: 1fr;
+        gap: 4px;
+      }
+    }
+
+    /* Collaboration intentionally reuses the exact Members section structure/classes. */
+    #collaboration .section-head,
+    #collaboration .section-card,
+    #collaboration .grid-3,
+    #collaboration .member-card,
+    #collaboration .member-card h3,
+    #collaboration .member-card p,
+    #collaboration .role {
+      /* no custom overrides: inherit the same rules used by Members */
+    }
+    
+    /* News feed */
+    .news-stack { display:grid; gap:18px; }
+    .news-title { margin:0 0 12px; font-size:1.35rem; }
+    .news-copy p { margin:0 0 10px; }
+    .news-hero {
+      width:100%; max-height:520px; object-fit:cover; object-position:center 38%;
+      display:block; border-radius:18px; border:1px solid var(--line); margin:14px 0 16px;
+    }
+    .featured-news { border-color:rgba(97,218,251,.2); }
+    .news-gallery {
+      display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; margin-top:14px;
+    }
+    .news-gallery figure { margin:0; }
+    .news-gallery img {
+      width:100%; height:220px; object-fit:cover; border-radius:14px;
+      border:1px solid var(--line); display:block;
+    }
+    .news-gallery figcaption { color:var(--muted); font-size:12px; margin-top:5px; }
+    .news-related {
+      margin-top:16px; padding-top:14px; border-top:1px solid var(--line);
+    }
+    .news-related ul { margin:8px 0 0 18px; padding:0; }
+    .news-related li { margin:6px 0; }
+    @media (max-width:720px) {
+      .news-gallery { grid-template-columns:1fr; }
+      .news-gallery img { height:auto; max-height:340px; }
+    }
+
+    /* Compact news list */
+    .news-list { display:grid; gap:12px; }
+    .news-summary-card {
+      padding:18px 20px; border:1px solid var(--line); border-radius:16px;
+      background:var(--card);
+    }
+    .news-summary-card h3 { margin:5px 0 7px; font-size:1.08rem; }
+    .news-summary-card h3 a { color:var(--text); text-decoration:none; }
+    .news-summary-card h3 a:hover { text-decoration:underline; }
+    .news-summary-card p { margin:0 0 8px; }
+    .news-read-more, .news-all-link a { font-weight:600; text-decoration:none; }
+    .news-read-more:hover, .news-all-link a:hover { text-decoration:underline; }
+    .news-all-link { margin-top:14px; }
+
+
     /* Full news page */
+    .pub-page-hero { padding: 64px 0 24px; }
     .news-stack { display:grid; gap:22px; }
+    .news-card { scroll-margin-top: 90px; }
     .news-full-title { margin:6px 0 12px; font-size:1.55rem; }
     .news-hero { width:100%; max-height:560px; object-fit:cover; object-position:center 38%; display:block; border-radius:18px; border:1px solid var(--line); margin:14px 0 16px; }
     .news-copy p { margin:0 0 10px; }
@@ -309,38 +434,33 @@
     .news-related ul { margin:8px 0 0 18px; padding:0; }
     .news-related li { margin:6px 0; }
     @media (max-width:720px) { .news-gallery,.news-meta { grid-template-columns:1fr; } .news-gallery img { height:auto; max-height:360px; } }
-
 </style>
 </head>
-<body><div id="site-nav"></div><script src="shared-nav.js"></script>
+<body>
+<div id="site-nav"></div>
+<script src="shared-nav.js"></script>
 
 <header class="pub-page-hero">
-<div class="wrap">
-<span class="eyebrow">GSAI · UFSC</span>
-<h1>Publications</h1>
-<p class="lead">Publications by Eric Aislan Antonelo, organized by year.</p>
-<div class="hero-actions">
-<a class="btn primary" href="https://scholar.google.com/citations?user=fSiq-2kAAAAJ&amp;hl=en" rel="noopener noreferrer" target="_blank">Google Scholar</a>
-<a class="btn secondary" href="http://lattes.cnpq.br/9164096321999079" rel="noopener noreferrer" target="_blank">Lattes</a>
-<a class="btn secondary" href="https://orcid.org/0000-0002-7285-0974" rel="noopener noreferrer" target="_blank">ORCID</a>
-<a class="btn secondary" href="index.html#publications">Back to GSAI</a>
-</div>
-<p class="source-note">
-      The publication list was reconciled with the Lattes CV and current public research profiles.
-      <strong>PDF</strong> is shown only for a public full-text URL that was verified.
-      <strong>arXiv</strong> opens the corresponding record, and <strong>Official</strong> points to the DOI or publisher.
-      Repository links are used when a stable public record exposes a full-text copy.
-    </p>
-</div>
-</header>
-<main class="wrap">
-<section>
-  <div class="section-head">
+  <div class="wrap">
+    <span class="eyebrow">GSAI · UFSC</span>
     <h1>News</h1>
-    <p>Activities, projects, events, and research highlights from GSAI.</p>
+    <p class="lead">Activities, projects, events, and research highlights from the group.</p>
+    <div class="hero-actions">
+      <a class="btn secondary" href="index.html#news">Back to GSAI</a>
+    </div>
   </div>
-  <div id="all-news-content"></div>
-</section>
+</header>
+
+<main class="wrap">
+  <section>
+    <div id="all-news-content"></div>
+  </section>
 </main>
-<script src="site.js?v=20261023-3"></script></body>
+
+<div class="footer">
+  <div class="wrap">GSAI · Grupo de Sistemas Autônomos Inteligentes · UFSC</div>
+</div>
+
+<script src="site.js?v=20261023-4"></script>
+</body>
 </html>
