@@ -424,7 +424,16 @@
     .news-list { display:grid; gap:12px; }
     .news-summary-card {
       padding:18px 20px; border:1px solid var(--line); border-radius:16px;
-      background:var(--card);
+      background:rgba(255,255,255,.025);
+    }
+    .news-summary-card .label {
+      display:inline-block;
+      font-size:12px;
+      text-transform:uppercase;
+      letter-spacing:.08em;
+      color:var(--accent-2);
+      font-weight:800;
+      margin-bottom:2px;
     }
     .news-summary-card h3 { margin:5px 0 7px; font-size:1.08rem; }
     .news-summary-card h3 a { color:var(--text); text-decoration:none; }
@@ -495,6 +504,7 @@
       max-width:170px;
     }
     .support-logo.capes { max-width:185px; }
+    .support-logo.fapesc { max-width:205px; max-height:58px; }
     .support-logo.ufsc { max-width:205px; max-height:58px; }
     .support-note {
       margin:14px 0 0;
@@ -508,6 +518,7 @@
       .support-logo-link { min-height:70px; padding:10px 14px; }
       .support-logo { max-width:145px; max-height:48px; }
       .support-logo.capes { max-width:160px; }
+      .support-logo.fapesc { max-width:175px; max-height:52px; }
       .support-logo.ufsc { max-width:180px; max-height:54px; }
     }
 
@@ -628,8 +639,11 @@
       <a class="support-logo-link" href="https://www.gov.br/capes/pt-br" target="_blank" rel="noopener noreferrer" aria-label="CAPES">
         <img class="support-logo capes" src="images/logos/capes.svg" alt="CAPES"/>
       </a>
+      <a class="support-logo-link" href="https://fapesc.sc.gov.br/" target="_blank" rel="noopener noreferrer" aria-label="FAPESC">
+        <img class="support-logo fapesc" src="https://fapesc.sc.gov.br/wp-content/uploads/2024/05/PREVIEW-SITE-VERSAO-1-HORIZONTAL-COR-preto.jpg" alt="FAPESC"/>
+      </a>
     </div>
-    <p class="support-note">CNPq — research projects and scholarships. CAPES — graduate scholarships (MSc/PhD).</p>
+    <p class="support-note">CNPq — research projects and scholarships. CAPES — graduate scholarships (MSc/PhD). FAPESC — PhD scholarship.</p>
   </div>
   <div class="support-group">
     <span class="support-kicker">Host institution</span>
