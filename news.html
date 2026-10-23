@@ -451,9 +451,22 @@
     .news-related ul { margin:8px 0 0 18px; padding:0; }
     .news-related li { margin:6px 0; }
     @media (max-width:720px) { .news-gallery,.news-meta { grid-template-columns:1fr; } .news-gallery img { height:auto; max-height:360px; } }
+
+    .footer-row {
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:16px;
+      flex-wrap:wrap;
+    }
+    .back-to-top {
+      font-weight:700;
+      white-space:nowrap;
+    }
+
 </style>
 </head>
-<body>
+<body id="top">
 <div id="site-nav"></div>
 <script src="shared-nav.js?v=20261023-2"></script>
 
@@ -475,7 +488,10 @@
 </main>
 
 <div class="footer">
-  <div class="wrap">GSAI · Grupo de Sistemas Autônomos Inteligentes · UFSC</div>
+  <div class="wrap footer-row">
+    <span>GSAI · Grupo de Sistemas Autônomos Inteligentes · UFSC</span>
+    <a class="back-to-top" href="#top">Back to top ↑</a>
+  </div>
 </div>
 
 <script src="site.js?v=20261023-4"></script>
