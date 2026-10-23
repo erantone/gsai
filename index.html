@@ -403,6 +403,20 @@
       .news-gallery img { height:auto; max-height:340px; }
     }
 
+    /* Compact news list */
+    .news-list { display:grid; gap:12px; }
+    .news-summary-card {
+      padding:18px 20px; border:1px solid var(--line); border-radius:16px;
+      background:var(--card);
+    }
+    .news-summary-card h3 { margin:5px 0 7px; font-size:1.08rem; }
+    .news-summary-card h3 a { color:var(--text); text-decoration:none; }
+    .news-summary-card h3 a:hover { text-decoration:underline; }
+    .news-summary-card p { margin:0 0 8px; }
+    .news-read-more, .news-all-link a { font-weight:600; text-decoration:none; }
+    .news-read-more:hover, .news-all-link a:hover { text-decoration:underline; }
+    .news-all-link { margin-top:14px; }
+
 </style>
 </head>
 <body><div id="site-nav"></div><script src="shared-nav.js"></script>
@@ -542,5 +556,5 @@
       GSAI research group.
     </div>
 </main>
-<script src="site.js?v=20261023-2"></script></body>
+<script src="site.js?v=20261023-3"></script></body>
 </html>
