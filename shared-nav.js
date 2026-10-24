@@ -14,9 +14,9 @@
     ["Research", home("research"), "research"],
     ["News", onNews ? "news.html" : home("news"), "news"],
     ["Members", home("members"), "members"],
+    ["Publications", onPublications ? "publications.html" : (onHome ? "#publications" : "index.html#publications"), "publications"],
     ["Collaboration", home("collaboration"), "collaboration"],
     ["Research demos", home("videos"), "videos"],
-    ["Publications", onPublications ? "publications.html" : (onHome ? "#publications" : "index.html#publications"), "publications"],
     ["Alumni", home("alumni"), "alumni"]
   ];
 
