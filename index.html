@@ -162,6 +162,19 @@
       columns: 2; gap: 24px; padding-left: 18px; margin: 0;
     }
     .alumni-list li { break-inside: avoid; margin-bottom: 14px; color: var(--muted); }
+    .contact-details { margin:0 0 8px; }
+    .contact-links { display:flex; flex-wrap:wrap; gap:8px; margin-top:10px; }
+    .contact-links a {
+      display:inline-flex;
+      padding:6px 10px;
+      border:1px solid var(--line);
+      border-radius:999px;
+      background:rgba(255,255,255,.025);
+      font-size:12px;
+      font-weight:700;
+      text-decoration:none;
+    }
+    .contact-links a:hover { background:rgba(97,218,251,.08); }
     .alumni-tag {
       display:inline-flex;
       align-items:center;
@@ -525,7 +538,13 @@
 </div>
 <div class="section-card">
 <p style="margin:0 0 6px"><strong>Eric Aislan Antonelo</strong></p>
-<p class="muted" style="margin:0"><a href="https://eas.ufsc.br/" rel="noopener noreferrer" target="_blank">Department of Automation and Systems Engineering (EAS)</a>, Federal University of Santa Catarina (UFSC), Florianópolis, Brazil.<br/>Homepage: <a href="https://ericantonelo.paginas.ufsc.br/" rel="noopener noreferrer" target="_blank">ericantonelo.paginas.ufsc.br</a></p>
+<p class="muted contact-details"><a href="https://eas.ufsc.br/" rel="noopener noreferrer" target="_blank">Department of Automation and Systems Engineering (EAS)</a>, Federal University of Santa Catarina (UFSC), Florianópolis, Brazil.</p>
+<p class="muted contact-details">Email: <span id="contact-email"></span></p>
+<div class="contact-links">
+  <a href="https://ericantonelo.paginas.ufsc.br/" rel="noopener noreferrer" target="_blank">Homepage</a>
+  <a href="https://scholar.google.com/citations?user=fSiq-2kAAAAJ&amp;hl=en" rel="noopener noreferrer" target="_blank">Google Scholar</a>
+  <a href="http://lattes.cnpq.br/9164096321999079" rel="noopener noreferrer" target="_blank">Lattes</a>
+</div>
 </div>
 </section>
 <div class="footer footer-row">
@@ -533,5 +552,5 @@
       <a class="back-to-top" href="#top">Back to top ↑</a>
     </div>
 </main>
-<script src="site.js?v=20261023-6"></script></body>
+<script src="site.js?v=20261024-1"></script></body>
 </html>
