@@ -3,6 +3,18 @@
   const load = (url) => fetch(url, { cache: 'no-store' }).then(r => { if (!r.ok) throw new Error(`${url}: ${r.status}`); return r.json(); });
   const groupBy = (items, key) => items.reduce((m,x) => ((m[x[key]] ||= []).push(x), m), {});
 
+  function renderContactEmail() {
+    const host=document.getElementById('contact-email');
+    if(!host) return;
+    const user=['eric','antonelo'].join('.');
+    const domain=['ufsc','br'].join('.');
+    const address=user+'@'+domain;
+    const link=document.createElement('a');
+    link.href='mailto:'+address;
+    link.textContent=address;
+    host.replaceChildren(link);
+  }
+
   async function renderNews() {
     const host=document.getElementById('news-content'); if(!host) return;
     const data=(await load('data/news.json')).sort((a,b)=>String(b.date||'').localeCompare(String(a.date||'')));
