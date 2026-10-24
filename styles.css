@@ -57,3 +57,57 @@ a:hover { text-decoration: underline; }
   gap:16px; flex-wrap:wrap;
 }
 .back-to-top { font-weight:700; white-space:nowrap; }
+
+.menu a {
+  position: relative;
+  color: var(--muted);
+}
+.menu a:hover {
+  color: var(--text);
+  text-decoration: none;
+}
+.menu a.active,
+.menu a[aria-current="page"] {
+  color: var(--text);
+  font-weight: 700;
+}
+.menu a.active::after,
+.menu a[aria-current="page"]::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -7px;
+  height: 2px;
+  border-radius: 999px;
+  background: var(--accent);
+}
+.menu-shell { min-width: 0; }
+
+@media (max-width:720px) {
+  .nav .inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 12px 0 10px;
+  }
+  .menu-shell {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  .menu {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    gap: 16px;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 2px 28px 7px 0;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+    mask-image: linear-gradient(to right, #000 0, #000 calc(100% - 28px), transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, #000 0, #000 calc(100% - 28px), transparent 100%);
+  }
+  .menu::-webkit-scrollbar { display: none; }
+}
