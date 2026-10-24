@@ -16,7 +16,7 @@
     ["Members", home("members"), "members"],
     ["Publications", onPublications ? "publications.html" : (onHome ? "#publications" : "index.html#publications"), "publications"],
     ["Collaboration", home("collaboration"), "collaboration"],
-    ["Research demos", home("videos"), "videos"],
+    ["Demos", home("videos"), "videos"],
     ["Alumni", home("alumni"), "alumni"]
   ];
 
