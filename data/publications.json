@@ -63,6 +63,19 @@
     ]
   },
   {
+    "year": 2026,
+    "title": "A Hardware-Partitioned micro-ROS Mini-Vehicle for Operator-Supervised Neural Driving",
+    "authorsHtml": "Gustavo Claudio Karl Couto, <strong>Eric Aislan Antonelo</strong>, and Gabriel George Zipperer",
+    "authorsText": "Gustavo Claudio Karl Couto, Eric Aislan Antonelo, and Gabriel George Zipperer",
+    "venue": "Brazilian Symposium on Computing Systems Engineering (SBESC 2026), accepted for oral presentation, 2026.",
+    "members": [
+      "eric-antonelo",
+      "gustavo-couto",
+      "gabriel-zipperer"
+    ],
+    "links": []
+  },
+  {
     "year": 2025,
     "title": "Physics-informed Echo State Networks for modeling controllable dynamical systems",
     "authorsHtml": "E. Mochiutti, <strong>Eric Aislan Antonelo</strong>, and E. Camponogara",

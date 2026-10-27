@@ -1,5 +1,17 @@
 [
   {
+    "title": "Digital twin of the UFSC campus: from phone photos to the simulator",
+    "meta": "Digital twin · Photogrammetry · Vision-language agents · CARLA",
+    "description": "First prototype of the digital twin of UFSC's Sector D: seven buildings photographed on foot, reconstructed by photogrammetry, redrawn as lightweight procedural models by vision-language agents, and placed on an OpenStreetMap-based map in CARLA. Narration in Portuguese.",
+    "embedUrl": "https://www.youtube-nocookie.com/embed/7NFBp0iJPn4?rel=0",
+    "links": [
+      {
+        "label": "Watch on YouTube",
+        "url": "https://www.youtube.com/watch?v=7NFBp0iJPn4"
+      }
+    ]
+  },
+  {
     "title": "PPO with Beta Distribution on CarRacing-v0",
     "meta": "CarRacing · Reinforcement learning · Best leaderboard result",
     "description": "Demonstration of the PPO-Beta policy achieving 913 ± 26 over 100 episodes on CarRacing-v0 — the best result listed on the archived OpenAI Gym CarRacing-v0 leaderboard.",
