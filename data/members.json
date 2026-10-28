@@ -10,7 +10,7 @@
     "category": "PhD students",
     "name": "Gustavo Claudio Karl Couto",
     "role": "PhD Student",
-    "descriptionHtml": "Works on sim-to-real autonomous driving, including the development of a digital twin of the CTC campus at UFSC, implicit behavioral cloning, and validation on miniature autonomous vehicles.",
+    "descriptionHtml": "Works on guidable driving policies for semi-structured environments, based on implicit behavioral cloning and validated on miniature autonomous vehicles, and on the digital twin of the UFSC campus, built from photogrammetry and vision-language agents.",
     "photo": "images/people/gustavo-claudio-karl-couto.jpg"
   },
   {
@@ -54,7 +54,7 @@
     "category": "Undergraduate students",
     "name": "Gabriel Zipperer",
     "role": "Undergraduate Student",
-    "descriptionHtml": "Undergraduate researcher in AI and autonomous systems.",
+    "descriptionHtml": "Studies Control and Automation Engineering at UFSC. Works on the group's open miniature autonomous vehicle platform, contributing to its embedded software and field tests.",
     "photo": "images/people/gabriel-zipperer.jpg"
   },
   {
