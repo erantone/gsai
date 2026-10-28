@@ -87,6 +87,76 @@
     ]
   },
   {
+    "year": 2026,
+    "title": "Closed-Loop Evaluation of Bird’s-Eye-View Maps from Cross-View Transformers as Inputs to Behavior-Cloning Policies",
+    "authorsHtml": "Felipe Carlos dos Santos, <strong>Eric Aislan Antonelo</strong>, and Gustavo Claudio Karl Couto",
+    "authorsText": "Felipe Carlos dos Santos, Eric Aislan Antonelo, and Gustavo Claudio Karl Couto",
+    "venue": "XXIII Encontro Nacional de Inteligência Artificial e Computacional (ENIAC 2026), Cuiabá, Brazil, 2026; arXiv:2609.05783.",
+    "members": [
+      "eric-antonelo",
+      "gustavo-couto",
+      "felipe-santos"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2609.05783",
+        "localPdf": false
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2609.05783",
+        "localPdf": false
+      }
+    ]
+  },
+  {
+    "year": 2026,
+    "title": "Diffusion-2BC: Hybrid Diffusion and Regression Training for Offline Behavior Cloning in Autonomous Driving",
+    "authorsHtml": "Bruno Maciel Machado and <strong>Eric Aislan Antonelo</strong>",
+    "authorsText": "Bruno Maciel Machado and Eric Aislan Antonelo",
+    "venue": "arXiv:2609.38472, 2026. Journal submission under review.",
+    "members": [
+      "eric-antonelo",
+      "bruno-machado"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2609.38472",
+        "localPdf": false
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2609.38472",
+        "localPdf": false
+      }
+    ]
+  },
+  {
+    "year": 2026,
+    "title": "Disagreement-Regularized Imitation Learning for Image-Based Continuous Control with Gaussian and Beta Policies",
+    "authorsHtml": "Irving Giovani Bronzatti Petrazzini and <strong>Eric Aislan Antonelo</strong>",
+    "authorsText": "Irving Giovani Bronzatti Petrazzini and Eric Aislan Antonelo",
+    "venue": "arXiv:2609.38407, 2026. Journal submission under review.",
+    "members": [
+      "eric-antonelo",
+      "irving-petrazzini"
+    ],
+    "links": [
+      {
+        "label": "PDF",
+        "url": "https://arxiv.org/pdf/2609.38407",
+        "localPdf": false
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2609.38407",
+        "localPdf": false
+      }
+    ]
+  },
+  {
     "year": 2025,
     "title": "Physics-informed Echo State Networks for modeling controllable dynamical systems",
     "authorsHtml": "E. Mochiutti, <strong>Eric Aislan Antonelo</strong>, and E. Camponogara",
