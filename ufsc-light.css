@@ -43,9 +43,12 @@ body {
   text-decoration:none !important;
 }
 .brand-logo {
-  width:64px;
-  height:64px;
+  width:205px;
+  max-width:36vw;
+  height:auto;
+  max-height:64px;
   object-fit:contain;
+  object-position:left center;
   flex:0 0 auto;
 }
 .brand-copy { display:grid; gap:1px; }
@@ -60,10 +63,6 @@ body {
   color:#526579;
   font-size:.9rem;
   font-weight:500;
-}
-.brand-university {
-  color:#6b7988;
-  font-size:.8rem;
 }
 .nav {
   position:static !important;
@@ -238,10 +237,9 @@ main a:hover { color:#004f7d; }
 /* Mobile */
 @media (max-width:720px) {
   .brand-inner { min-height:76px; }
-  .brand-logo { width:52px; height:52px; }
+  .brand-logo { width:165px; max-width:48vw; height:auto; max-height:52px; }
   .brand-name { font-size:1.2rem; }
   .brand-subtitle { font-size:.78rem; }
-  .brand-university { display:none; }
 
   .nav .inner {
     display:block !important;
