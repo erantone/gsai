@@ -1,0 +1,32 @@
+[
+  {
+    "category": "External",
+    "name": "Luis Manuel Conde Bento",
+    "affiliation": "Polytechnic of Leiria / University of Coimbra — Portugal",
+    "keywords": "Automatic control, GNSS positioning, autonomous vehicles."
+  },
+  {
+    "category": "External",
+    "name": "Alain Vande Wouwer",
+    "affiliation": "UMONS — Mons, Belgium",
+    "keywords": "Control, optimization, autonomous systems."
+  },
+  {
+    "category": "External",
+    "name": "Douglas Wildgrube Bertol",
+    "affiliation": "UDESC — Joinville, Brazil",
+    "keywords": "Mobile robotics, autonomous systems, trajectory control."
+  },
+  {
+    "category": "Internal",
+    "name": "Eduardo Camponogara",
+    "affiliation": "EAS — UFSC",
+    "keywords": "Mathematical optimization, distributed control, energy systems."
+  },
+  {
+    "category": "Internal",
+    "name": "Daniel Ferreira Coutinho",
+    "affiliation": "EAS — UFSC",
+    "keywords": "Robust nonlinear control, state estimation, robotics."
+  }
+]

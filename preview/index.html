@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta name="description" content="GSAI at UFSC researches autonomous systems, autonomous driving, imitation learning, generative models, and physics-informed neural networks for control."/>
+<link rel="canonical" href="https://gsai.ufsc.br/"/>
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="GSAI · UFSC"/>
+<meta property="og:title" content="GSAI · Intelligent Autonomous Systems Group · UFSC"/>
+<meta property="og:description" content="GSAI at UFSC researches autonomous systems, autonomous driving, imitation learning, generative models, and physics-informed neural networks for control."/>
+<meta property="og:url" content="https://gsai.ufsc.br/"/>
+<meta property="og:image" content="https://gsai.ufsc.br/images/news/bracis-eniac-2026-group.jpg"/>
+<meta property="og:image:alt" content="GSAI · Intelligent Autonomous Systems Group at UFSC"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="GSAI · Intelligent Autonomous Systems Group · UFSC"/>
+<meta name="twitter:description" content="GSAI at UFSC researches autonomous systems, autonomous driving, imitation learning, generative models, and physics-informed neural networks for control."/>
+<meta name="twitter:image" content="https://gsai.ufsc.br/images/news/bracis-eniac-2026-group.jpg"/>
+<title>GSAI · Intelligent Autonomous Systems Group · UFSC</title>
+<link rel="stylesheet" href="styles.css?v=20261023-3"/>
+<style>
+.hero {
+      padding: 88px 0 56px;
+    }
+    .hero-grid {
+      display: grid; grid-template-columns: 1fr; gap: 26px; align-items: stretch;
+    }
+    .hero-card, .side-card, .section-card {
+      background: linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.015));
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+    .hero-card { padding: 34px; }
+    .eyebrow {
+      display: inline-flex; align-items: center; gap: 8px;
+      border: 1px solid rgba(97,218,251,.24);
+      color: var(--accent);
+      background: rgba(97,218,251,.08);
+      border-radius: 999px; padding: 7px 12px; font-size: 13px; font-weight: 600;
+    }
+    h1 {
+      font-size: clamp(2.2rem, 5vw, 4.2rem);
+      line-height: 1.05;
+      margin: 18px 0 16px;
+      letter-spacing: -.03em;
+    }
+    .lead {
+      font-size: 1.08rem;
+      color: var(--muted);
+      max-width: 78ch;
+    }
+    .hero-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 22px; }
+    .side-card {
+      padding: 26px;
+      display: grid; gap: 16px;
+    }
+    .metric {
+      padding: 16px 18px; border-radius: 18px;
+      background: rgba(255,255,255,.025);
+      border: 1px solid var(--line);
+    }
+    .metric strong { display:block; font-size: 1.55rem; }
+    section { padding: 18px 0 32px; }
+    .section-head {
+      display: flex; justify-content: space-between; align-items: end; gap: 18px;
+      margin-bottom: 18px;
+    }
+    .section-head h2 { font-size: clamp(1.55rem, 3vw, 2.4rem); margin: 0; }
+    .section-head p { margin: 0; color: var(--muted); max-width: 64ch; }
+    .section-card { padding: 26px; }
+    .pillars {
+      display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px;
+    }
+    .pillar {
+      padding: 22px; border-radius: 20px;
+      background: linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.01));
+      border: 1px solid var(--line);
+    }
+    .pillar h3 { margin-top: 0; margin-bottom: 10px; font-size: 1.35rem; }
+    .pillar ul { margin: 10px 0 0 18px; color: var(--muted); }
+    .news-card {
+      padding: 22px; border-radius: 20px; border: 1px solid rgba(140,255,193,.15);
+      background: linear-gradient(180deg, rgba(140,255,193,.08), rgba(97,218,251,.04));
+    }
+    .news-card .label {
+      display: inline-block; font-size: 12px; text-transform: uppercase; letter-spacing: .08em;
+      color: var(--accent-2); font-weight: 800; margin-bottom: 10px;
+    }
+    .news-meta .box {
+      padding: 14px; border-radius: 16px; background: rgba(255,255,255,.04); border: 1px solid var(--line);
+      font-size: 14px;
+    }
+    .grid-3 {
+      display: grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap: 18px;
+    }
+    .member-card {
+      background: rgba(255,255,255,.025);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: 20px;
+    }
+    .member-card h3 { margin: 14px 0 4px; font-size: 1.15rem; }
+    .member-card .role { color: var(--accent); font-weight: 700; margin: 0 0 8px; }
+    .member-card p { color: var(--muted); margin: 0; }
+    .avatar {
+      width: 200px; aspect-ratio: 1 / 1; object-fit: cover;
+      border-radius: 18px; background: #1d2740; border: 1px solid var(--line);
+      margin: 0 auto; display: block;
+    }
+    .avatar.placeholder {
+      display: grid; place-items: center;
+      font-size: 2rem; font-weight: 800; color: white;
+      background: linear-gradient(135deg, #273555, #16213b);
+    }
+    .pub-grid {
+      display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px;
+    }
+    .pub-item {
+      padding: 18px; border-radius: 20px; border: 1px solid var(--line); background: rgba(255,255,255,.025);
+    }
+    .pub-item h4 { margin: 10px 0 6px; font-size: 1.03rem; }
+    .pub-item p { margin: 0; color: var(--muted); }
+    .pub-actions { display:flex; flex-wrap:wrap; gap:8px; margin-top:12px; }
+    .pub-link {
+      display:inline-flex; padding:6px 10px; border:1px solid var(--line);
+      border-radius:999px; background:rgba(255,255,255,.025);
+      font-size:12px; font-weight:700;
+    }
+    .pub-link:hover { text-decoration:none; background:rgba(97,218,251,.08); }
+    .pub-more-link {
+      margin-top:16px;
+      text-align:right;
+      font-weight:700;
+    }
+    .tag {
+      display: inline-flex; padding: 6px 10px; border-radius: 999px;
+      background: rgba(97,218,251,.10); color: var(--accent); font-weight: 700; font-size: 12px;
+      border: 1px solid rgba(97,218,251,.18);
+    }
+    .media-card {
+      display: grid; grid-template-columns: 1.1fr .9fr; gap: 20px; align-items: center;
+      padding: 22px;
+      border-radius: 22px;
+      border: 1px solid var(--line);
+      background: linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.01));
+    }
+    .media-preview {
+      min-height: 240px;
+      border-radius: 20px;
+      background:
+        linear-gradient(135deg, rgba(97,218,251,.18), rgba(140,255,193,.08)),
+        radial-gradient(circle at 30% 25%, rgba(255,255,255,.12), transparent 26%),
+        #0d1627;
+      border: 1px solid var(--line);
+      display: grid; place-items: center; text-align: center; padding: 18px;
+    }
+    .media-preview strong { font-size: 1.3rem; max-width: 18ch; }
+    .alumni-list {
+      columns: 2; gap: 24px; padding-left: 18px; margin: 0;
+    }
+    .alumni-list li { break-inside: avoid; margin-bottom: 14px; color: var(--muted); }
+    .contact-details { margin:0 0 8px; }
+    .contact-links { display:flex; flex-wrap:wrap; gap:8px; margin-top:10px; }
+    .contact-links a {
+      display:inline-flex;
+      padding:6px 10px;
+      border:1px solid var(--line);
+      border-radius:999px;
+      background:rgba(255,255,255,.025);
+      font-size:12px;
+      font-weight:700;
+      text-decoration:none;
+    }
+    .contact-links a:hover { background:rgba(97,218,251,.08); }
+    .alumni-tag {
+      display:inline-flex;
+      align-items:center;
+      margin-left:6px;
+      padding:2px 7px;
+      border-radius:999px;
+      border:1px solid rgba(97,218,251,.18);
+      background:rgba(97,218,251,.10);
+      color:var(--accent);
+      font-size:11px;
+      font-weight:800;
+      line-height:1.4;
+      vertical-align:1px;
+    }
+    @media (max-width: 980px) {
+      .hero-grid, .pillars, .grid-3, .pub-grid, .media-card, .news-meta {
+        grid-template-columns: 1fr;
+      }
+      .alumni-list { columns: 1; }
+    }
+    @media (max-width: 720px) {
+      .nav .inner {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 12px 0 10px;
+      }
+      .menu {
+        display: flex;
+        width: 100%;
+        flex-wrap: nowrap;
+        gap: 16px;
+        overflow-x: auto;
+        white-space: nowrap;
+        padding: 2px 0 5px;
+        scrollbar-width: none;
+        -webkit-overflow-scrolling: touch;
+      }
+      .menu::-webkit-scrollbar { display: none; }
+      .hero-card, .side-card, .section-card { padding: 22px; }
+      .hero { padding-top: 48px; }
+    }
+  
+
+    .video-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+    .video-card{padding:0;overflow:hidden}
+    .video-embed{aspect-ratio:16/9;width:100%;border:0;display:block;background:#000}
+    .video-content{padding:18px 20px 20px}
+    .video-content h3{margin:0 0 8px}
+    @media (max-width: 900px){.video-grid{grid-template-columns:1fr}}
+
+.video-thumb{
+  position:relative;display:block;aspect-ratio:16/9;overflow:hidden;background:#000;
+}
+.video-thumb-button{
+  width:100%;
+  padding:0;
+  border:0;
+  cursor:pointer;
+  color:inherit;
+  font:inherit;
+  text-align:inherit;
+}
+.video-thumb img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .2s ease,opacity .2s ease}
+.video-thumb:hover img{transform:scale(1.02);opacity:.88}
+.video-play{
+  position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+  width:64px;height:64px;border-radius:50%;display:grid;place-items:center;
+  background:rgba(0,0,0,.72);border:1px solid rgba(255,255,255,.28);
+  font-size:27px;color:#fff;line-height:1;padding-left:4px;
+}
+.video-thumb:hover .video-play{background:rgba(0,0,0,.88)}
+.video-thumb:focus-visible{
+  outline:3px solid var(--accent);
+  outline-offset:3px;
+}
+
+    .collaborator-row:first-child { border-top: 0; }
+    @media (max-width: 760px) {
+      .collaborator-row {
+        grid-template-columns: 1fr;
+        gap: 4px;
+      }
+    }
+
+    .collaborator-section-box
+
+    .collaborator-section-box
+
+    #collaboration {
+      padding-top: 30px;
+      padding-bottom: 10px;
+    }
+    @media (max-width: 760px) {
+      .collaboration-row {
+        grid-template-columns: 1fr;
+        gap: 4px;
+      }
+    }
+
+    /* Collaboration intentionally reuses the exact Members section structure/classes. */
+    #collaboration .section-head,
+    #collaboration .section-card,
+    #collaboration .grid-3,
+    #collaboration .member-card,
+    #collaboration .member-card h3,
+    #collaboration .member-card p,
+    #collaboration .role {
+      /* no custom overrides: inherit the same rules used by Members */
+    }
+    
+    /* News feed */
+    .news-stack { display:grid; gap:18px; }
+    .news-title { margin:0 0 12px; font-size:1.35rem; }
+    .news-copy p { margin:0 0 10px; }
+    .news-hero {
+      width:100%; max-height:520px; object-fit:cover; object-position:center 38%;
+      display:block; border-radius:18px; border:1px solid var(--line); margin:14px 0 16px;
+    }
+    .featured-news { border-color:rgba(97,218,251,.2); }
+    .news-gallery {
+      display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; margin-top:14px;
+    }
+    .news-gallery figure { margin:0; }
+    .news-gallery img {
+      width:100%; height:220px; object-fit:cover; border-radius:14px;
+      border:1px solid var(--line); display:block;
+    }
+    .news-gallery figcaption { color:var(--muted); font-size:12px; margin-top:5px; }
+    .news-related {
+      margin-top:16px; padding-top:14px; border-top:1px solid var(--line);
+    }
+    .news-related ul { margin:8px 0 0 18px; padding:0; }
+    .news-related li { margin:6px 0; }
+    @media (max-width:720px) {
+      .news-gallery { grid-template-columns:1fr; }
+      .news-gallery img { height:auto; max-height:340px; }
+    }
+
+    /* Compact news list */
+    .news-list { display:grid; gap:12px; }
+    .news-summary-card {
+      padding:18px 20px; border:1px solid var(--line); border-radius:16px;
+      background:rgba(255,255,255,.025);
+    }
+    .news-summary-card .label {
+      display:inline-block;
+      font-size:12px;
+      text-transform:uppercase;
+      letter-spacing:.08em;
+      color:var(--accent-2);
+      font-weight:800;
+      margin-bottom:2px;
+    }
+    .news-summary-card h3 { margin:5px 0 7px; font-size:1.08rem; }
+
+    .hero-location {
+      margin-top: 22px;
+      padding-top: 16px;
+      border-top: 1px solid var(--line);
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      gap: 8px 12px;
+      font-size: .95rem;
+    }
+    .hero-location strong { color: var(--text); }
+
+    /* Funding and institutional support */
+    .support-card {
+      display:grid;
+      grid-template-columns:1.25fr .75fr;
+      gap:18px;
+    }
+    .support-group {
+      padding:22px;
+      border-radius:20px;
+      background:rgba(255,255,255,.025);
+      color:var(--text);
+      border:1px solid var(--line);
+    }
+    .support-kicker {
+      display:block;
+      margin-bottom:12px;
+      color:var(--muted);
+      font-size:.76rem;
+      font-weight:800;
+      letter-spacing:.08em;
+      text-transform:uppercase;
+    }
+    .support-logos {
+      display:flex;
+      align-items:center;
+      gap:18px;
+      flex-wrap:wrap;
+      min-height:86px;
+    }
+    .support-logo-link {
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      min-height:76px;
+      padding:12px 16px;
+      border-radius:14px;
+      background:#fff;
+      border:1px solid rgba(255,255,255,.14);
+      text-decoration:none;
+    }
+    .support-logo {
+      display:block;
+      width:auto;
+      height:auto;
+      max-height:52px;
+      max-width:170px;
+    }
+    .support-logo.capes { max-width:185px; }
+    .support-logo.fapesc { max-width:205px; max-height:58px; }
+    .support-logo.ufsc { max-width:205px; max-height:58px; }
+    .support-note {
+      margin:14px 0 0;
+      color:var(--muted);
+      font-size:.9rem;
+      line-height:1.45;
+    }
+    @media (max-width:720px) {
+      .support-card { grid-template-columns:1fr; }
+      .support-logos { gap:14px; }
+      .support-logo-link { min-height:70px; padding:10px 14px; }
+      .support-logo { max-width:145px; max-height:48px; }
+      .support-logo.capes { max-width:160px; }
+      .support-logo.fapesc { max-width:175px; max-height:52px; }
+      .support-logo.ufsc { max-width:180px; max-height:54px; }
+    }
+</style>
+<link rel="stylesheet" href="ufsc-light.css?v=20261104-1"/>
+</head>
+<body id="top"><div id="site-nav"></div><script src="shared-nav.js?v=20261104-light1"></script>
+<header class="hero">
+<div class="wrap hero-grid">
+<div class="hero-card">
+<h1>Grupo de Sistemas Autônomos Inteligentes</h1>
+<p class="lead">GSAI conducts research in artificial intelligence for <strong>autonomous systems</strong>, with emphasis on vehicles and robots, and on <strong>physics-informed neural networks for control</strong> (PINC). The group connects perception, imitation learning, generative models, control, and physical knowledge in real-world problems.</p>
+<div class="hero-actions">
+<a class="btn primary" href="#members">Meet the team</a>
+<a class="btn secondary" href="#publications">Selected publications</a>
+</div>
+<div class="hero-location">
+  <span class="muted">Where</span>
+  <strong>UFSC · Florianópolis</strong>
+  <span class="muted"><a href="https://eas.ufsc.br/" rel="noopener noreferrer" target="_blank">Department of Automation and Systems Engineering (EAS)</a>, Federal University of Santa Catarina.</span>
+</div>
+</div>
+</div>
+</header>
+<main class="wrap">
+<section id="research">
+<div class="section-head">
+<h2>Research pillars</h2>
+</div>
+<div class="pillars">
+<div class="pillar">
+<h3>Autonomous systems</h3>
+<p class="muted">
+            Research on intelligent vehicles and robots, especially policy learning for navigation in complex environments.
+          </p>
+<ul>
+<li>Autonomous driving in simulated and real-world-inspired environments</li>
+<li>Imitation learning, GAIL, EBMs, and diffusion models</li>
+<li>Bird’s-Eye View representations and mid-level perception</li>
+<li>Robust policy generalization under multimodal behaviors</li>
+</ul>
+</div>
+<div class="pillar">
+<h3>PINC and physics-informed control</h3>
+<p class="muted">
+            Development of models that incorporate physical laws into learning for simulation and control.
+          </p>
+<ul>
+<li>Physics-informed neural networks for ODE/PDE-governed systems</li>
+<li>Control of nonlinear and controllable dynamical systems</li>
+<li>Physics-informed recurrent and reservoir-based models</li>
+<li>Bridging data efficiency, prior knowledge, and control performance</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="news">
+<div class="section-head">
+<h2>News</h2>
+</div>
+<div id="news-content"></div>
+</section>
+<section id="members">
+<div class="section-head">
+<h2>Members</h2>
+</div>
+<div id="members-content"></div></section><section id="publications">
+<div class="section-head">
+<h2>Selected publications</h2>
+<a href="publications.html">See full list (with PDFs) →</a>
+</div>
+<div id="selected-publications-content"></div>
+<div class="pub-more-link"><a href="publications.html">See all publications →</a></div>
+</section>
+<section class="section" id="collaboration"><div class="container"><div class="section-head"><h2>Collaboration</h2></div><div id="collaboration-content"></div></div></section>
+<section id="videos" style="padding-top:0">
+<div class="section-head">
+<h2>Research videos &amp; demos</h2>
+</div>
+<div id="videos-content"></div></section>
+<section id="alumni">
+<div class="section-head">
+<h2>Alumni</h2>
+</div>
+<div class="section-card">
+<ul class="alumni-list">
+<li><strong>Leonardo Pezenatto da Silva</strong> <span class="alumni-tag">Master</span> — VISERCM: Vision-based Inertial Signal Estimation and Road Condition Monitoring (2026)</li><li><strong>Bruno Maciel Machado</strong> <span class="alumni-tag">Master</span> — Diffusion Models for Offline Behavior Cloning in Autonomous Driving Scenarios <span class="muted">(2025)</span></li>
+<li><strong>Willian Benoski</strong> <span class="alumni-tag">Master</span> — Implicit Behavioral Cloning for Multimodal Behavior Learning in Autonomous Driving <span class="muted">(2025)</span></li>
+<li><strong>Gustavo Claudio Karl Couto</strong> <span class="alumni-tag">Master</span> — Generative Adversarial Imitation Learning with Bird’s-Eye View Input Generation for Autonomous Driving on Urban Environments <span class="muted">(2023)</span></li>
+<li><strong>Irving Giovani</strong> <span class="alumni-tag">Master</span> — Imitation Learning for Autonomous Driving: Disagreement-Regularization and Behavior Cloning with Beta Distribution <span class="muted">(2023)</span></li>
+<li><strong>Eric Mochiutti</strong> <span class="alumni-tag">Master</span> — Physics-Informed Echo State Networks for Modeling Controllable Dynamical Systems <span class="muted">(2023)</span></li>
+<li><strong>Rafael de Souza Toledo</strong> <span class="alumni-tag">Master</span> — Semantic Segmentation of Low-Resolution Images from Damaged Roads <span class="muted">(2022)</span></li>
+</ul>
+</div>
+</section>
+
+<section id="support">
+<div class="section-head">
+<h2>Funding &amp; institutional support</h2>
+</div>
+<div class="support-card">
+  <div class="support-group">
+    <span class="support-kicker">Apoio · Funding support</span>
+    <div class="support-logos">
+      <a class="support-logo-link" href="https://www.gov.br/cnpq/pt-br" target="_blank" rel="noopener noreferrer" aria-label="CNPq">
+        <img class="support-logo" src="https://www.gov.br/cnpq/pt-br/canais_atendimento/identidade-visual/CNPq_v2017_rgb.png" alt="CNPq"/>
+      </a>
+      <a class="support-logo-link" href="https://www.gov.br/capes/pt-br" target="_blank" rel="noopener noreferrer" aria-label="CAPES">
+        <img class="support-logo capes" src="https://www.gov.br/capes/pt-br/centrais-de-conteudo/logo-aplicacao-horizontal-fundo-claro-png/@@images/image-3180-5cb3582909c66128ae50ae27d6f6d790.png" alt="CAPES"/>
+      </a>
+      <a class="support-logo-link" href="https://fapesc.sc.gov.br/" target="_blank" rel="noopener noreferrer" aria-label="FAPESC">
+        <img class="support-logo fapesc" src="https://fapesc.sc.gov.br/wp-content/uploads/2024/05/PREVIEW-SITE-VERSAO-1-HORIZONTAL-COR-preto.jpg" alt="FAPESC"/>
+      </a>
+    </div>
+    <p class="support-note">CNPq — research projects and scholarships. CAPES — graduate scholarships (MSc/PhD). FAPESC — PhD scholarship.</p>
+  </div>
+  <div class="support-group">
+    <span class="support-kicker">Host institution</span>
+    <div class="support-logos">
+      <a class="support-logo-link" href="https://ufsc.br/" target="_blank" rel="noopener noreferrer" aria-label="Federal University of Santa Catarina">
+        <img class="support-logo ufsc" src="https://identidade.ufsc.br/files/2010/09/brasao_UFSC_vertical_sigla_fundo-claro.svg" onerror="this.onerror=null;this.src='images/logos/ufsc.svg'" alt="Universidade Federal de Santa Catarina (UFSC)"/>
+      </a>
+    </div>
+    <p class="support-note">Federal University of Santa Catarina (UFSC), Florianópolis, Brazil.</p>
+  </div>
+</div>
+</section>
+
+<section id="contact">
+<div class="section-head">
+<h2>Contact</h2>
+</div>
+<div class="section-card">
+<p style="margin:0 0 6px"><strong>Eric Aislan Antonelo</strong></p>
+<p class="muted contact-details"><a href="https://eas.ufsc.br/" rel="noopener noreferrer" target="_blank">Department of Automation and Systems Engineering (EAS)</a>, Federal University of Santa Catarina (UFSC), Florianópolis, Brazil.</p>
+<p class="muted contact-details">Email: <span id="contact-email"></span></p>
+<div class="contact-links">
+  <a href="https://ericantonelo.paginas.ufsc.br/" rel="noopener noreferrer" target="_blank">Homepage</a>
+  <a href="https://scholar.google.com/citations?user=fSiq-2kAAAAJ&amp;hl=en" rel="noopener noreferrer" target="_blank">Google Scholar</a>
+  <a href="http://lattes.cnpq.br/9164096321999079" rel="noopener noreferrer" target="_blank">Lattes</a>
+</div>
+</div>
+</section>
+<div class="footer footer-row">
+      <span>GSAI research group.</span>
+      <a class="back-to-top" href="#top">Back to top ↑</a>
+    </div>
+</main>
+<script src="site.js?v=20261024-1"></script></body>
+</html>

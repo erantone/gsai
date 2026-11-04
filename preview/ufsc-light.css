@@ -1,0 +1,264 @@
+/* UFSC light proposal — isolated branch theme */
+:root {
+  --bg:#f5f7fa;
+  --panel:#ffffff;
+  --panel-2:#eef3f8;
+  --text:#17283a;
+  --muted:#5d6d7e;
+  --line:#d8e0e8;
+  --accent:#005c9e;
+  --accent-2:#0077b6;
+  --shadow:0 8px 24px rgba(27,58,88,.08);
+  --radius:14px;
+}
+
+html { background:#f5f7fa; }
+body {
+  background:#f5f7fa !important;
+  color:var(--text) !important;
+}
+
+/* Institutional header */
+.site-header {
+  position:sticky;
+  top:0;
+  z-index:100;
+  background:#fff;
+  border-bottom:1px solid #d6e0e8;
+  box-shadow:0 2px 10px rgba(20,54,82,.06);
+}
+.brand-bar { background:#fff; }
+.brand-inner {
+  min-height:88px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:24px;
+}
+.brand {
+  display:flex !important;
+  align-items:center;
+  gap:15px;
+  color:#17324d !important;
+  text-decoration:none !important;
+}
+.brand-logo {
+  width:64px;
+  height:64px;
+  object-fit:contain;
+  flex:0 0 auto;
+}
+.brand-copy { display:grid; gap:1px; }
+.brand-name {
+  font-size:1.45rem;
+  line-height:1.1;
+  font-weight:800;
+  color:#003f70;
+  letter-spacing:-.01em;
+}
+.brand-subtitle {
+  color:#526579;
+  font-size:.9rem;
+  font-weight:500;
+}
+.brand-university {
+  color:#6b7988;
+  font-size:.8rem;
+}
+.nav {
+  position:static !important;
+  background:#005c9e !important;
+  border:0 !important;
+  backdrop-filter:none !important;
+}
+.nav .inner {
+  min-height:48px;
+  padding:0 !important;
+  justify-content:flex-start !important;
+}
+.menu-shell { width:100%; }
+.menu {
+  gap:0 !important;
+  font-size:14px;
+}
+.menu a {
+  color:#fff !important;
+  padding:14px 15px;
+  font-weight:600;
+  text-decoration:none !important;
+}
+.menu a:hover {
+  background:rgba(255,255,255,.12);
+  color:#fff !important;
+}
+.menu a.active,
+.menu a[aria-current="page"] {
+  background:#004b82;
+  color:#fff !important;
+  font-weight:750;
+}
+.menu a.active::after,
+.menu a[aria-current="page"]::after { display:none !important; }
+
+/* Overall page */
+.hero { padding-top:56px !important; }
+.hero-card,
+.side-card,
+.section-card {
+  background:#fff !important;
+  border:1px solid var(--line) !important;
+  box-shadow:var(--shadow) !important;
+  border-radius:var(--radius) !important;
+}
+.hero-card {
+  border-top:4px solid #005c9e !important;
+}
+h1,h2,h3,h4,strong { color:#17324d; }
+h1 {
+  color:#123a5a !important;
+  letter-spacing:-.035em;
+}
+.section-head h2 {
+  color:#164e76;
+  font-weight:750;
+}
+.lead,
+.member-card p,
+.pub-item p,
+.muted { color:var(--muted) !important; }
+
+.btn.primary {
+  background:#005c9e !important;
+  color:#fff !important;
+  border:1px solid #005c9e !important;
+}
+.btn.primary:hover { background:#004b82 !important; }
+.btn.secondary {
+  background:#fff !important;
+  color:#005c9e !important;
+  border:1px solid #9bb6ca !important;
+}
+.btn.secondary:hover { background:#edf5fa !important; }
+
+/* Cards and content */
+.pillar,
+.member-card,
+.pub-item,
+.news-summary-card,
+.support-group,
+.metric {
+  background:#fff !important;
+  border:1px solid var(--line) !important;
+  box-shadow:0 3px 12px rgba(27,58,88,.045);
+}
+.pillar { border-top:3px solid #7caaca !important; }
+.member-card,
+.pub-item { border-radius:12px !important; }
+
+.news-card,
+.featured-news {
+  background:#fff !important;
+  border:1px solid var(--line) !important;
+  border-left:4px solid #0077b6 !important;
+  box-shadow:var(--shadow);
+}
+.news-summary-card .label,
+.news-card .label {
+  color:#006aa6 !important;
+}
+.news-meta .box {
+  background:#f5f8fb !important;
+  border:1px solid var(--line) !important;
+  color:#31465a;
+}
+
+.tag,
+.alumni-tag {
+  background:#eaf4fb !important;
+  border-color:#b8d5e8 !important;
+  color:#005c9e !important;
+}
+.pub-link,
+.video-links a,
+.contact-links a {
+  background:#fff !important;
+  color:#005c9e !important;
+  border-color:#b7cbd9 !important;
+}
+.pub-link:hover,
+.video-links a:hover,
+.contact-links a:hover {
+  background:#edf6fb !important;
+  border-color:#82abc7 !important;
+}
+.video-card {
+  background:#fff !important;
+}
+.video-meta { color:#006aa6 !important; }
+.video-thumb { background:#e8edf2 !important; }
+
+.hero-location,
+.news-related {
+  border-color:var(--line) !important;
+}
+.avatar { border-color:#ced8e1 !important; }
+
+.support-logo-link {
+  background:#fff !important;
+  border:1px solid #d9e1e8;
+}
+.support-note { color:#667789 !important; }
+
+/* Publications page */
+.filters,
+.pub-page-card,
+.publication-card,
+.publication-item {
+  background:#fff !important;
+  border-color:var(--line) !important;
+}
+input,select {
+  background:#fff !important;
+  color:#263b4d !important;
+  border-color:#bfcbd5 !important;
+}
+
+/* Footer */
+.footer {
+  color:#6a7886 !important;
+  border-top:1px solid #dce3e9;
+  margin-top:28px;
+}
+.back-to-top { color:#005c9e !important; }
+
+/* Links */
+main a { color:#006aa6; }
+main a:hover { color:#004f7d; }
+
+/* Mobile */
+@media (max-width:720px) {
+  .brand-inner { min-height:76px; }
+  .brand-logo { width:52px; height:52px; }
+  .brand-name { font-size:1.2rem; }
+  .brand-subtitle { font-size:.78rem; }
+  .brand-university { display:none; }
+
+  .nav .inner {
+    display:block !important;
+    padding:0 !important;
+  }
+  .menu-shell {
+    overflow:hidden;
+    width:100%;
+  }
+  .menu {
+    overflow-x:auto;
+    flex-wrap:nowrap !important;
+    white-space:nowrap;
+    padding:0 22px 0 0 !important;
+    mask-image:linear-gradient(to right,#000 0,#000 calc(100% - 24px),transparent 100%);
+    -webkit-mask-image:linear-gradient(to right,#000 0,#000 calc(100% - 24px),transparent 100%);
+  }
+  .menu a { padding:13px 12px; }
+  .hero { padding-top:34px !important; }
+}
