@@ -64,6 +64,12 @@ body {
   font-size:.9rem;
   font-weight:500;
 }
+.brand-affiliation {
+  color:#708090;
+  font-size:.78rem;
+  font-weight:600;
+  letter-spacing:.01em;
+}
 .nav {
   position:static !important;
   background:#005c9e !important;
@@ -111,6 +117,14 @@ body {
 }
 .hero-card {
   border-top:4px solid #005c9e !important;
+}
+.institutional-kicker {
+  margin:0 0 8px;
+  color:#005c9e;
+  font-size:.76rem;
+  font-weight:800;
+  letter-spacing:.09em;
+  text-transform:uppercase;
 }
 h1,h2,h3,h4,strong { color:#17324d; }
 h1 {
@@ -242,6 +256,7 @@ main a:hover { color:#004f7d; }
   .brand-logo { width:auto; height:62px; max-width:none; max-height:none; }
   .brand-name { font-size:1.2rem; }
   .brand-subtitle { font-size:.78rem; }
+  .brand-affiliation { font-size:.7rem; }
 
   .nav .inner {
     display:block !important;

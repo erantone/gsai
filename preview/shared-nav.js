@@ -46,6 +46,7 @@
               <span class="brand-copy">
                 <span class="brand-name">GSAI</span>
                 <span class="brand-subtitle">Intelligent Autonomous Systems Group</span>
+                <span class="brand-affiliation">EAS · Federal University of Santa Catarina</span>
               </span>
             </a>
           </div>

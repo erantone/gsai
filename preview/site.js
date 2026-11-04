@@ -59,7 +59,8 @@
     const data=await load('data/members.json');
     const groups=groupBy(data,'category');
     const order=['Staff','PhD students','Master students','Undergraduate students'];
-    host.innerHTML=order.filter(k=>groups[k]).map((k,i)=>`<div class="section-card"${i<order.filter(x=>groups[x]).length-1?' style="margin-bottom:18px"':''}><h3 style="margin-top:0">${esc(k)}</h3><div class="grid-3">${groups[k].map(m=>`<article class="member-card">${m.photo?`<img class="avatar" src="${esc(m.photo)}" alt="${esc(m.name)}"${m.photoStyle?` style="${esc(m.photoStyle)}"`:''}>`:''}<h3>${esc(m.name)}</h3><p class="role">${esc(m.role)}</p><p>${m.descriptionHtml||''}</p></article>`).join('')}</div></div>`).join('');
+    const displayCategory = k => k === 'Staff' ? 'Faculty' : k;
+    host.innerHTML=order.filter(k=>groups[k]).map((k,i)=>`<div class="section-card"${i<order.filter(x=>groups[x]).length-1?' style="margin-bottom:18px"':''}><h3 style="margin-top:0">${esc(displayCategory(k))}</h3><div class="grid-3">${groups[k].map(m=>`<article class="member-card">${m.photo?`<img class="avatar" src="${esc(m.photo)}" alt="${esc(m.name)}"${m.photoStyle?` style="${esc(m.photoStyle)}"`:''}>`:''}<h3>${esc(m.name)}</h3><p class="role">${esc(m.role)}</p><p>${m.descriptionHtml||''}</p></article>`).join('')}</div></div>`).join('');
   }
 
   async function renderCollaboration() {
