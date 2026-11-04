@@ -38,12 +38,25 @@
       .join("");
 
     host.innerHTML = `
-      <nav class="nav">
-        <div class="wrap inner">
-          <a class="brand" href="index.html">GSAI · UFSC</a>
-          <div class="menu-shell"><div class="menu">${menu}</div></div>
+      <header class="site-header">
+        <div class="brand-bar">
+          <div class="wrap brand-inner">
+            <a class="brand" href="index.html">
+              <img class="brand-logo" src="images/logos/ufsc.svg" alt="UFSC">
+              <span class="brand-copy">
+                <span class="brand-name">GSAI</span>
+                <span class="brand-subtitle">Intelligent Autonomous Systems Group</span>
+                <span class="brand-university">Federal University of Santa Catarina</span>
+              </span>
+            </a>
+          </div>
         </div>
-      </nav>`;
+        <nav class="nav" aria-label="Primary navigation">
+          <div class="wrap inner">
+            <div class="menu-shell"><div class="menu">${menu}</div></div>
+          </div>
+        </nav>
+      </header>`;
   };
 
   render();
