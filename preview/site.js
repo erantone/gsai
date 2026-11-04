@@ -111,6 +111,26 @@
 
     const memberFilter=document.getElementById('memberFilter'), searchInput=document.getElementById('publicationSearch'), countEl=document.getElementById('publicationCount');
     if(!memberFilter||!searchInput||!countEl) return;
+
+    // Keep member counts synchronized with publications.json.
+    // Existing option order/labels are preserved; any new member id found in the
+    // data is appended automatically with a readable fallback label.
+    const memberCounts={};
+    data.forEach(p=>(p.members||[]).forEach(id=>{ memberCounts[id]=(memberCounts[id]||0)+1; }));
+    const knownOptions=Array.from(memberFilter.options).filter(o=>o.value!=='all');
+    const knownIds=new Set(knownOptions.map(o=>o.value));
+    knownOptions.forEach(option=>{
+      const label=option.textContent.replace(/\s*\(\d+\)\s*$/,'').trim();
+      option.textContent=`${label} (${memberCounts[option.value]||0})`;
+    });
+    Object.keys(memberCounts).filter(id=>!knownIds.has(id)).forEach(id=>{
+      const option=document.createElement('option');
+      option.value=id;
+      const label=id.split('-').map(w=>w ? w[0].toUpperCase()+w.slice(1) : '').join(' ');
+      option.textContent=`${label} (${memberCounts[id]})`;
+      memberFilter.appendChild(option);
+    });
+
     const articles=()=>Array.from(host.querySelectorAll('article.publication-row'));
     function applyFilters(){ const member=memberFilter.value, query=normalizeText(searchInput.value); let n=0; articles().forEach(a=>{const visible=(member==='all'||(a.dataset.members||'').split(/\s+/).includes(member))&&(!query||normalizeText(a.dataset.search||a.innerText).includes(query));a.hidden=!visible;if(visible)n++;}); host.querySelectorAll('.publication-year-group').forEach(g=>g.classList.toggle('year-section-hidden',!g.querySelector('article.publication-row:not([hidden])')));countEl.textContent=n+(n===1?' publication':' publications'); }
     memberFilter.addEventListener('change',applyFilters); searchInput.addEventListener('input',applyFilters); applyFilters();
