@@ -115,7 +115,9 @@ body {
 h1,h2,h3,h4,strong { color:#17324d; }
 h1 {
   color:#123a5a !important;
-  letter-spacing:-.035em;
+  font-size:clamp(2.05rem,4vw,3.45rem) !important;
+  line-height:1.08 !important;
+  letter-spacing:-.03em;
 }
 .section-head h2 {
   color:#164e76;
