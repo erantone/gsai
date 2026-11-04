@@ -42,11 +42,10 @@
         <div class="brand-bar">
           <div class="wrap brand-inner">
             <a class="brand" href="index.html">
-              <img class="brand-logo" src="images/logos/ufsc.svg" alt="UFSC">
+              <img class="brand-logo" src="https://inteligencia-artificial.ufsc.br/wp-content/themes/brasilGovInterno/img/brasao_default.png" alt="Universidade Federal de Santa Catarina">
               <span class="brand-copy">
                 <span class="brand-name">GSAI</span>
                 <span class="brand-subtitle">Intelligent Autonomous Systems Group</span>
-                <span class="brand-university">Federal University of Santa Catarina</span>
               </span>
             </a>
           </div>
